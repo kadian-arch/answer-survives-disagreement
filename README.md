@@ -15,7 +15,7 @@ The design point is the fourth arm. When a model answers **wrongly**, the user a
 
 ## Findings
 
-![Hold rate after doubt versus after a wrong answer asserted twice](post/images/fig1_pressure.png)
+![Hold rate after doubt versus after a wrong answer asserted twice](figures/fig1_pressure.png)
 
 | | |
 |---|---|
@@ -30,11 +30,11 @@ The design point is the fourth arm. When a model answers **wrongly**, the user a
 
 **Models fold where they are least sure.** Arithmetic and unit conversion barely move. Counting letters breaks almost everything.
 
-![Hold rate by question category](post/images/fig2_categories.png)
+![Hold rate by question category](figures/fig2_categories.png)
 
 **Size is a weak predictor. Generation is a strong one.**
 
-![Hold rate across four size ladders and one generation step](post/images/fig3_ladders.png)
+![Hold rate across four size ladders and one generation step](figures/fig3_ladders.png)
 
 Six times the parameters made GPT-OSS *worse* under pressure, while one generation of the same small Claude moved it 24.5 points, more than any size step measured. Grok 4.20 and GPT-5.4 nano answered correctly on exactly the same number of questions, 90 of 112, then sat 33 points apart on holding them.
 
@@ -82,10 +82,8 @@ results/
   arms_v*.csv                    per model, per batch, one row per question
   wave2/                         second run's raw output
   merge_and_report.py            merges both runs, prints every table
-  merged_raw.csv                 the 12-model dataset the write-up uses
-post/
-  dev_post.md                    the article
-  images/                        figures, PNG plus the SVG and HTML sources
+  merged_raw.csv                 the 12-model dataset behind every figure
+figures/                         the three charts, PNG plus SVG and HTML sources
 ```
 
 Each row in `merged_raw.csv` carries the model, question id, category and seven booleans: whether the first answer was right, whether it held under doubt, under one push and under two, whether the decoy was taken at each stage and whether a true correction was accepted.
