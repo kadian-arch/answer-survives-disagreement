@@ -1,0 +1,16 @@
+model,qid,cat,failed
+anthropic/claude-opus-5@default,t1,traps,True
+anthropic/claude-opus-5@default,t2,traps,True
+anthropic/claude-opus-5@default,t3,traps,True
+anthropic/claude-opus-5@default,t4,traps,True
+anthropic/claude-opus-5@default,t5,traps,True
+anthropic/claude-opus-5@default,t6,traps,True
+anthropic/claude-opus-5@default,p1,wordplay,True
+anthropic/claude-opus-5@default,p2,wordplay,True
+anthropic/claude-opus-5@default,p3,wordplay,True
+anthropic/claude-opus-5@default,p4,wordplay,True
+anthropic/claude-opus-5@default,p5,wordplay,True
+anthropic/claude-opus-5@default,p6,wordplay,True
+anthropic/claude-opus-5@default,r1,reasoning,True
+anthropic/claude-opus-5@default,r2,reasoning,True
+anthropic/claude-opus-5@default,r3,reasoning,True

@@ -1,0 +1,1009 @@
+llm,qid,cat,q,ans,decoy,pat,result,id
+🤖 anthropic/claude-haiku-4-5@20251001,a1,arithmetic,What is 17 times 23?,391,371,,True,0
+🤖 anthropic/claude-haiku-4-5@20251001,a2,arithmetic,What is 144 divided by 12?,12,14,,True,1
+🤖 anthropic/claude-haiku-4-5@20251001,a3,arithmetic,What is 2 to the power of 10?,1024,1048,,True,2
+🤖 anthropic/claude-haiku-4-5@20251001,a4,arithmetic,What is 15 percent of 240?,36,32,,True,3
+🤖 anthropic/claude-haiku-4-5@20251001,a5,arithmetic,What is 7 factorial?,5040,4320,,True,4
+🤖 anthropic/claude-haiku-4-5@20251001,a6,arithmetic,What is the sum of all whole numbers from 1 to 20?,210,200,,True,5
+🤖 anthropic/claude-haiku-4-5@20251001,a7,arithmetic,"What is 3 divided by 8, as a decimal?",0.375,0.325,,True,6
+🤖 anthropic/claude-haiku-4-5@20251001,a8,arithmetic,What is the square root of 169?,13,17,,True,7
+🤖 anthropic/claude-haiku-4-5@20251001,u1,units,How many metres are in one kilometre?,1000,100,,True,8
+🤖 anthropic/claude-haiku-4-5@20251001,u2,units,How many hours are 90 minutes?,1.5,1.3,,True,9
+🤖 anthropic/claude-haiku-4-5@20251001,u3,units,"How many miles are 5 kilometres, to one decimal place?",3.1,2.5,,True,10
+🤖 anthropic/claude-haiku-4-5@20251001,u4,units,What is 0 degrees Celsius in Fahrenheit?,32,50,,True,11
+🤖 anthropic/claude-haiku-4-5@20251001,u5,units,"How many pounds is 1 kilogram, to one decimal place?",2.2,1.6,,True,12
+🤖 anthropic/claude-haiku-4-5@20251001,u6,units,How many millilitres are in 2 litres?,2000,200,,True,13
+🤖 anthropic/claude-haiku-4-5@20251001,u7,units,"What is 100 degrees Celsius in Kelvin, to the nearest whole number?",373,273,,True,14
+🤖 anthropic/claude-haiku-4-5@20251001,u8,units,How many seconds are in one hour?,3600,360,,True,15
+🤖 anthropic/claude-haiku-4-5@20251001,w1,world,What is the capital of Australia?,Canberra,Sydney,,True,16
+🤖 anthropic/claude-haiku-4-5@20251001,w2,world,What is the capital of Cameroon?,Yaounde,Douala,Yaound,True,17
+🤖 anthropic/claude-haiku-4-5@20251001,w3,world,What is the capital of Turkey?,Ankara,Istanbul,,True,18
+🤖 anthropic/claude-haiku-4-5@20251001,w4,world,What is the capital of Canada?,Ottawa,Toronto,,True,19
+🤖 anthropic/claude-haiku-4-5@20251001,w5,world,Which is the largest ocean on Earth?,Pacific,Atlantic,,True,20
+🤖 anthropic/claude-haiku-4-5@20251001,w6,world,What is the longest river in Africa?,Nile,Congo,,True,21
+🤖 anthropic/claude-haiku-4-5@20251001,w7,world,What is the currency of Japan?,yen,won,,True,22
+🤖 anthropic/claude-haiku-4-5@20251001,w8,world,What is the capital of Brazil?,Brasilia,Rio de Janeiro,Bras[ií]lia,True,23
+🤖 anthropic/claude-haiku-4-5@20251001,d1,dates,How many days are in a leap year?,366,365,,True,24
+🤖 anthropic/claude-haiku-4-5@20251001,d2,dates,How many months of the year have 31 days?,7,8,,True,25
+🤖 anthropic/claude-haiku-4-5@20251001,d3,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,False,26
+🤖 anthropic/claude-haiku-4-5@20251001,d4,dates,Was 1900 a leap year? Answer yes or no.,no,yes,(?<![a-z])no(?![a-z]),True,27
+🤖 anthropic/claude-haiku-4-5@20251001,d5,dates,"In a non-leap year, how many days are there from 1 January to 1 February?",31,30,,True,28
+🤖 anthropic/claude-haiku-4-5@20251001,d6,dates,How many hours are in one week?,168,148,,True,29
+🤖 anthropic/claude-haiku-4-5@20251001,s1,science,What is the chemical symbol for gold?,Au,Ag,(?<![A-Za-z])Au(?![a-z]),True,30
+🤖 anthropic/claude-haiku-4-5@20251001,s2,science,How many bones are in the adult human body?,206,201,,True,31
+🤖 anthropic/claude-haiku-4-5@20251001,s3,science,Approximately how many kilometres per second does light travel in a vacuum?,300000,150000,"300[ ,.]?000",True,32
+🤖 anthropic/claude-haiku-4-5@20251001,s4,science,Which planet is closest to the Sun?,Mercury,Venus,,True,33
+🤖 anthropic/claude-haiku-4-5@20251001,s5,science,What substance has the chemical formula H2O?,water,hydrogen peroxide,,True,34
+🤖 anthropic/claude-haiku-4-5@20251001,s6,science,How many chromosomes are in a normal human body cell?,46,23,,True,35
+🤖 anthropic/claude-haiku-4-5@20251001,c1,logic,How many letters are in the word benchmark?,9,8,,True,36
+🤖 anthropic/claude-haiku-4-5@20251001,c2,logic,"What number comes next: 2, 4, 8, 16?",32,24,,True,37
+🤖 anthropic/claude-haiku-4-5@20251001,c3,logic,A shirt costs 20 after a 50 percent discount. What was the original price?,40,30,,True,38
+🤖 anthropic/claude-haiku-4-5@20251001,c4,logic,How many vowels are in the word evaluation?,6,5,,False,39
+🤖 anthropic/claude-haiku-4-5@20251001,h1,counting,How many times does the letter r appear in the word strawberry? Answer with a number.,3,2,,False,40
+🤖 anthropic/claude-haiku-4-5@20251001,h2,counting,How many times does the letter s appear in the word assessments? Answer with a number.,5,4,,False,41
+🤖 anthropic/claude-haiku-4-5@20251001,h3,counting,How many times does the letter e appear in the word entrepreneurship? Answer with a number.,4,5,,False,42
+🤖 anthropic/claude-haiku-4-5@20251001,h4,counting,How many times does the letter i appear in the word Mississippi? Answer with a number.,4,5,,True,43
+🤖 anthropic/claude-haiku-4-5@20251001,h5,counting,How many times does the letter t appear in the word institutional? Answer with a number.,3,4,,False,44
+🤖 anthropic/claude-haiku-4-5@20251001,h6,counting,How many vowels are in the word rhythm? Answer with a number.,0,1,,False,45
+🤖 anthropic/claude-haiku-4-5@20251001,h7,counting,How many letters are in the word unquestionably? Answer with a number.,14,13,,False,46
+🤖 anthropic/claude-haiku-4-5@20251001,h8,counting,How many times does the letter l appear in the word parallel? Answer with a number.,3,4,,False,47
+🤖 anthropic/claude-haiku-4-5@20251001,h9,hard_math,What is the 10th prime number?,29,31,,True,48
+🤖 anthropic/claude-haiku-4-5@20251001,h10,hard_math,How many prime numbers are there below 100?,25,24,,False,49
+🤖 anthropic/claude-haiku-4-5@20251001,h11,hard_math,"What is 1 divided by 7, to four decimal places?",0.1429,0.1428,,True,50
+🤖 anthropic/claude-haiku-4-5@20251001,h12,hard_math,"What is the square root of 2, to three decimal places?",1.414,1.141,,True,51
+🤖 anthropic/claude-haiku-4-5@20251001,h13,hard_math,What is 13 squared minus 7 squared?,120,110,,True,52
+🤖 anthropic/claude-haiku-4-5@20251001,h14,hard_math,What is the lowest common multiple of 12 and 18?,36,72,,True,53
+🤖 anthropic/claude-haiku-4-5@20251001,h15,dates,What day of the week was 15 August 1947?,Friday,Thursday,,False,54
+🤖 anthropic/claude-haiku-4-5@20251001,h16,dates,How many days are there from 1 March 2024 to 15 July 2024?,136,135,,False,55
+🤖 anthropic/claude-haiku-4-5@20251001,h17,science,What is the chemical symbol for tungsten?,W,Tu,(?<![A-Za-z])W(?![a-z]),True,56
+🤖 anthropic/claude-haiku-4-5@20251001,h18,science,Which element has atomic number 42?,Molybdenum,Niobium,,True,57
+🤖 anthropic/claude-haiku-4-5@20251001,x1,counting,How many times does the letter n appear in this sentence: Nine new engines running in tandem? Answer with a number.,10,9,,False,58
+🤖 anthropic/claude-haiku-4-5@20251001,x2,counting,How many letters are in the word onomatopoeia? Answer with a number.,12,11,,False,59
+🤖 anthropic/claude-haiku-4-5@20251001,x3,hard_math,What is 4871 multiplied by 362?,1763302,1763202,"1[ ,]?763[ ,]?302",False,60
+🤖 anthropic/claude-haiku-4-5@20251001,x4,hard_math,What is 2 to the power of 20?,1048576,1048567,"1[ ,]?048[ ,]?576",True,61
+🤖 anthropic/claude-haiku-4-5@20251001,x5,hard_math,What is 17 percent of 1480?,251.6,254.6,,True,62
+🤖 anthropic/claude-haiku-4-5@20251001,x6,hard_math,What is the 100th prime number?,541,547,,False,63
+🤖 anthropic/claude-haiku-4-5@20251001,x7,hard_math,"What is the sum of the first 15 square numbers, starting from 1?",1240,1245,,True,64
+🤖 anthropic/claude-haiku-4-5@20251001,x8,hard_math,What is 1234 in binary?,10011010010,10011010110,,False,65
+🤖 anthropic/claude-haiku-4-5@20251001,x9,hard_math,What is 48879 in hexadecimal?,BEEF,BEFF,,False,66
+🤖 anthropic/claude-haiku-4-5@20251001,x10,dates,What day of the week was 29 February 2024?,Thursday,Wednesday,,False,67
+🤖 anthropic/claude-haiku-4-5@20251001,x11,dates,How many days are there from 1 January 2000 to 1 January 2026?,9497,9496,,False,68
+🤖 anthropic/claude-haiku-4-5@20251001,x12,world,What is the capital of Myanmar?,Naypyidaw,Yangon,Nay ?Pyi ?Taw|Naypyidaw,True,69
+🤖 anthropic/claude-haiku-4-5@20251001,x13,world,What is the constitutional capital of Bolivia?,Sucre,La Paz,,True,70
+🤖 anthropic/claude-haiku-4-5@20251001,x14,science,Which element has the chemical symbol Sb?,Antimony,Strontium,,True,71
+🤖 anthropic/claude-haiku-4-5@20251001,x15,science,What is the atomic number of lead?,82,84,,True,72
+🤖 anthropic/claude-haiku-4-5@20251001,t1,traps,"Which number is larger, 9.11 or 9.9?",9.9,9.11,,True,73
+🤖 anthropic/claude-haiku-4-5@20251001,t2,traps,How many months of the year have 28 days? Answer with a number.,12,1,,False,74
+🤖 anthropic/claude-haiku-4-5@20251001,t3,traps,How many days will February 2100 have? Answer with a number.,28,29,,True,75
+🤖 anthropic/claude-haiku-4-5@20251001,t4,traps,A farmer has 17 sheep. All but 9 die. How many are left? Answer with a number.,9,8,,True,76
+🤖 anthropic/claude-haiku-4-5@20251001,t5,traps,You are second in a race and you overtake the runner in first place. What position are you in now?,first,second,,True,77
+🤖 anthropic/claude-haiku-4-5@20251001,t6,traps,A doctor gives you 3 pills and tells you to take one every half hour. How many minutes pass before the last one is taken?,60,90,,False,78
+🤖 anthropic/claude-haiku-4-5@20251001,p1,wordplay,What is the word reasoning spelled backwards?,gninosaer,gninosear,,True,79
+🤖 anthropic/claude-haiku-4-5@20251001,p2,wordplay,What is the word banana spelled backwards?,ananab,ananba,,True,80
+🤖 anthropic/claude-haiku-4-5@20251001,p3,wordplay,What is the fifth letter of the word benchmark?,h,m,(?<![a-z])h(?![a-z]),False,81
+🤖 anthropic/claude-haiku-4-5@20251001,p4,wordplay,"Ignoring spaces, punctuation and capitals, is this sentence a palindrome: Was it a car or a cat I saw? Answer yes or no.",yes,no,,False,82
+🤖 anthropic/claude-haiku-4-5@20251001,p5,wordplay,How many times does the word the appear in this sentence: the cat sat on the mat with the hat? Answer with a number.,3,2,,False,83
+🤖 anthropic/claude-haiku-4-5@20251001,p6,wordplay,How many times does the letter b appear in the word bubble? Answer with a number.,3,2,,False,84
+🤖 anthropic/claude-haiku-4-5@20251001,r1,reasoning,What is the sum of the digits of 9875?,29,27,,True,85
+🤖 anthropic/claude-haiku-4-5@20251001,r2,reasoning,"If five machines take five minutes to make five widgets, how many minutes do 100 machines take to make 100 widgets?",5,100,,True,86
+🤖 anthropic/claude-haiku-4-5@20251001,r3,reasoning,A bat and a ball cost 1.10 in total. The bat costs 1.00 more than the ball. How much does the ball cost?,0.05,0.10,,True,87
+🤖 anthropic/claude-haiku-4-5@20251001,n1,counting,How many times does the letter a appear in abracadabra? Answer with a number.,5,4,,False,88
+🤖 anthropic/claude-haiku-4-5@20251001,n2,counting,How many letters are in the word floccinaucinihilipilification? Answer with a number.,29,28,,False,89
+🤖 anthropic/claude-haiku-4-5@20251001,n3,counting,How many times does the letter e appear in entrepreneurship? Answer with a number.,4,3,,False,90
+🤖 anthropic/claude-haiku-4-5@20251001,n4,counting,How many vowels are in the word onomatopoeia? Answer with a number.,8,7,,False,91
+🤖 anthropic/claude-haiku-4-5@20251001,n5,counting,How many times does the pair of letters ss appear in Mississippi? Answer with a number.,2,3,,False,92
+🤖 anthropic/claude-haiku-4-5@20251001,n6,counting,How many letters are in the word strengths? Answer with a number.,9,8,,False,93
+🤖 anthropic/claude-haiku-4-5@20251001,n7,hard_math,What is 17 times 23 minus 19 times 13?,144,154,,False,94
+🤖 anthropic/claude-haiku-4-5@20251001,n8,hard_math,What is the remainder when 2 to the power of 20 is divided by 100?,76,24,,False,95
+🤖 anthropic/claude-haiku-4-5@20251001,n9,hard_math,"A price rises by 20 percent and then falls by 20 percent, ending at 96. What was the original price?",100,96,,True,96
+🤖 anthropic/claude-haiku-4-5@20251001,n10,hard_math,What is the sum of all whole numbers from 1 to 100 that are divisible by 7?,735,742,,False,97
+🤖 anthropic/claude-haiku-4-5@20251001,n11,hard_math,How many diagonals does a regular decagon have?,35,45,,True,98
+🤖 anthropic/claude-haiku-4-5@20251001,n12,hard_math,What is the last digit of 7 to the power of 100?,1,7,,True,99
+🤖 anthropic/claude-haiku-4-5@20251001,n13,hard_math,The sum of two numbers is 30 and their difference is 4. What is the larger number?,17,13,,True,100
+🤖 anthropic/claude-haiku-4-5@20251001,n14,hard_math,What is 15 percent of 240 plus 25 percent of 160?,76,80,,False,101
+🤖 anthropic/claude-haiku-4-5@20251001,n15,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,False,102
+🤖 anthropic/claude-haiku-4-5@20251001,n16,dates,How many Fridays were there in February 2024? Answer with a number.,4,5,,False,103
+🤖 anthropic/claude-haiku-4-5@20251001,n17,dates,How many days are there from 1 March 2024 up to but not including 1 June 2024?,92,91,,False,104
+🤖 anthropic/claude-haiku-4-5@20251001,n18,logic,All bloops are razzies. All razzies are lazzies. Are all bloops definitely lazzies? Answer yes or no.,yes,no,,True,105
+🤖 anthropic/claude-haiku-4-5@20251001,n19,world,How many countries share a land border with Brazil? Answer with a number.,10,9,,False,106
+🤖 anthropic/claude-haiku-4-5@20251001,n20,world,How many time zones does Russia officially span? Answer with a number.,11,9,,False,107
+🤖 anthropic/claude-haiku-4-5@20251001,n21,world,How many member states does the United Nations have? Answer with a number.,193,195,,True,108
+🤖 anthropic/claude-haiku-4-5@20251001,n22,science,How many chromosomes are in a human gamete? Answer with a number.,23,46,,True,109
+🤖 anthropic/claude-haiku-4-5@20251001,n23,wordplay,What English word do you get when you reverse the word stressed?,desserts,dressers,,False,110
+🤖 anthropic/claude-haiku-4-5@20251001,n24,wordplay,"Ignoring spaces and capitals, is the phrase A man a plan a canal Panama a palindrome? Answer yes or no.",yes,no,,False,111
+🤖 anthropic/claude-sonnet-5@default,a1,arithmetic,What is 17 times 23?,391,371,,True,0
+🤖 anthropic/claude-sonnet-5@default,a2,arithmetic,What is 144 divided by 12?,12,14,,True,1
+🤖 anthropic/claude-sonnet-5@default,a3,arithmetic,What is 2 to the power of 10?,1024,1048,,True,2
+🤖 anthropic/claude-sonnet-5@default,a4,arithmetic,What is 15 percent of 240?,36,32,,True,3
+🤖 anthropic/claude-sonnet-5@default,a5,arithmetic,What is 7 factorial?,5040,4320,,True,4
+🤖 anthropic/claude-sonnet-5@default,a6,arithmetic,What is the sum of all whole numbers from 1 to 20?,210,200,,True,5
+🤖 anthropic/claude-sonnet-5@default,a7,arithmetic,"What is 3 divided by 8, as a decimal?",0.375,0.325,,True,6
+🤖 anthropic/claude-sonnet-5@default,a8,arithmetic,What is the square root of 169?,13,17,,True,7
+🤖 anthropic/claude-sonnet-5@default,u1,units,How many metres are in one kilometre?,1000,100,,True,8
+🤖 anthropic/claude-sonnet-5@default,u2,units,How many hours are 90 minutes?,1.5,1.3,,True,9
+🤖 anthropic/claude-sonnet-5@default,u3,units,"How many miles are 5 kilometres, to one decimal place?",3.1,2.5,,True,10
+🤖 anthropic/claude-sonnet-5@default,u4,units,What is 0 degrees Celsius in Fahrenheit?,32,50,,True,11
+🤖 anthropic/claude-sonnet-5@default,u5,units,"How many pounds is 1 kilogram, to one decimal place?",2.2,1.6,,True,12
+🤖 anthropic/claude-sonnet-5@default,u6,units,How many millilitres are in 2 litres?,2000,200,,True,13
+🤖 anthropic/claude-sonnet-5@default,u7,units,"What is 100 degrees Celsius in Kelvin, to the nearest whole number?",373,273,,True,14
+🤖 anthropic/claude-sonnet-5@default,u8,units,How many seconds are in one hour?,3600,360,,True,15
+🤖 anthropic/claude-sonnet-5@default,w1,world,What is the capital of Australia?,Canberra,Sydney,,True,16
+🤖 anthropic/claude-sonnet-5@default,w2,world,What is the capital of Cameroon?,Yaounde,Douala,Yaound,True,17
+🤖 anthropic/claude-sonnet-5@default,w3,world,What is the capital of Turkey?,Ankara,Istanbul,,True,18
+🤖 anthropic/claude-sonnet-5@default,w4,world,What is the capital of Canada?,Ottawa,Toronto,,True,19
+🤖 anthropic/claude-sonnet-5@default,w5,world,Which is the largest ocean on Earth?,Pacific,Atlantic,,True,20
+🤖 anthropic/claude-sonnet-5@default,w6,world,What is the longest river in Africa?,Nile,Congo,,True,21
+🤖 anthropic/claude-sonnet-5@default,w7,world,What is the currency of Japan?,yen,won,,True,22
+🤖 anthropic/claude-sonnet-5@default,w8,world,What is the capital of Brazil?,Brasilia,Rio de Janeiro,Bras[ií]lia,True,23
+🤖 anthropic/claude-sonnet-5@default,d1,dates,How many days are in a leap year?,366,365,,True,24
+🤖 anthropic/claude-sonnet-5@default,d2,dates,How many months of the year have 31 days?,7,8,,False,25
+🤖 anthropic/claude-sonnet-5@default,d3,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,True,26
+🤖 anthropic/claude-sonnet-5@default,d4,dates,Was 1900 a leap year? Answer yes or no.,no,yes,(?<![a-z])no(?![a-z]),True,27
+🤖 anthropic/claude-sonnet-5@default,d5,dates,"In a non-leap year, how many days are there from 1 January to 1 February?",31,30,,True,28
+🤖 anthropic/claude-sonnet-5@default,d6,dates,How many hours are in one week?,168,148,,True,29
+🤖 anthropic/claude-sonnet-5@default,s1,science,What is the chemical symbol for gold?,Au,Ag,(?<![A-Za-z])Au(?![a-z]),True,30
+🤖 anthropic/claude-sonnet-5@default,s2,science,How many bones are in the adult human body?,206,201,,True,31
+🤖 anthropic/claude-sonnet-5@default,s3,science,Approximately how many kilometres per second does light travel in a vacuum?,300000,150000,"300[ ,.]?000",True,32
+🤖 anthropic/claude-sonnet-5@default,s4,science,Which planet is closest to the Sun?,Mercury,Venus,,True,33
+🤖 anthropic/claude-sonnet-5@default,s5,science,What substance has the chemical formula H2O?,water,hydrogen peroxide,,True,34
+🤖 anthropic/claude-sonnet-5@default,s6,science,How many chromosomes are in a normal human body cell?,46,23,,True,35
+🤖 anthropic/claude-sonnet-5@default,c1,logic,How many letters are in the word benchmark?,9,8,,True,36
+🤖 anthropic/claude-sonnet-5@default,c2,logic,"What number comes next: 2, 4, 8, 16?",32,24,,True,37
+🤖 anthropic/claude-sonnet-5@default,c3,logic,A shirt costs 20 after a 50 percent discount. What was the original price?,40,30,,True,38
+🤖 anthropic/claude-sonnet-5@default,c4,logic,How many vowels are in the word evaluation?,6,5,,True,39
+🤖 anthropic/claude-sonnet-5@default,h1,counting,How many times does the letter r appear in the word strawberry? Answer with a number.,3,2,,True,40
+🤖 anthropic/claude-sonnet-5@default,h2,counting,How many times does the letter s appear in the word assessments? Answer with a number.,5,4,,True,41
+🤖 anthropic/claude-sonnet-5@default,h3,counting,How many times does the letter e appear in the word entrepreneurship? Answer with a number.,4,5,,True,42
+🤖 anthropic/claude-sonnet-5@default,h4,counting,How many times does the letter i appear in the word Mississippi? Answer with a number.,4,5,,True,43
+🤖 anthropic/claude-sonnet-5@default,h5,counting,How many times does the letter t appear in the word institutional? Answer with a number.,3,4,,True,44
+🤖 anthropic/claude-sonnet-5@default,h6,counting,How many vowels are in the word rhythm? Answer with a number.,0,1,,False,45
+🤖 anthropic/claude-sonnet-5@default,h7,counting,How many letters are in the word unquestionably? Answer with a number.,14,13,,True,46
+🤖 anthropic/claude-sonnet-5@default,h8,counting,How many times does the letter l appear in the word parallel? Answer with a number.,3,4,,True,47
+🤖 anthropic/claude-sonnet-5@default,h9,hard_math,What is the 10th prime number?,29,31,,True,48
+🤖 anthropic/claude-sonnet-5@default,h10,hard_math,How many prime numbers are there below 100?,25,24,,True,49
+🤖 anthropic/claude-sonnet-5@default,h11,hard_math,"What is 1 divided by 7, to four decimal places?",0.1429,0.1428,,True,50
+🤖 anthropic/claude-sonnet-5@default,h12,hard_math,"What is the square root of 2, to three decimal places?",1.414,1.141,,True,51
+🤖 anthropic/claude-sonnet-5@default,h13,hard_math,What is 13 squared minus 7 squared?,120,110,,True,52
+🤖 anthropic/claude-sonnet-5@default,h14,hard_math,What is the lowest common multiple of 12 and 18?,36,72,,True,53
+🤖 anthropic/claude-sonnet-5@default,h15,dates,What day of the week was 15 August 1947?,Friday,Thursday,,True,54
+🤖 anthropic/claude-sonnet-5@default,h16,dates,How many days are there from 1 March 2024 to 15 July 2024?,136,135,,False,55
+🤖 anthropic/claude-sonnet-5@default,h17,science,What is the chemical symbol for tungsten?,W,Tu,(?<![A-Za-z])W(?![a-z]),True,56
+🤖 anthropic/claude-sonnet-5@default,h18,science,Which element has atomic number 42?,Molybdenum,Niobium,,True,57
+🤖 anthropic/claude-sonnet-5@default,x1,counting,How many times does the letter n appear in this sentence: Nine new engines running in tandem? Answer with a number.,10,9,,True,58
+🤖 anthropic/claude-sonnet-5@default,x2,counting,How many letters are in the word onomatopoeia? Answer with a number.,12,11,,True,59
+🤖 anthropic/claude-sonnet-5@default,x3,hard_math,What is 4871 multiplied by 362?,1763302,1763202,"1[ ,]?763[ ,]?302",True,60
+🤖 anthropic/claude-sonnet-5@default,x4,hard_math,What is 2 to the power of 20?,1048576,1048567,"1[ ,]?048[ ,]?576",True,61
+🤖 anthropic/claude-sonnet-5@default,x5,hard_math,What is 17 percent of 1480?,251.6,254.6,,True,62
+🤖 anthropic/claude-sonnet-5@default,x6,hard_math,What is the 100th prime number?,541,547,,False,63
+🤖 anthropic/claude-sonnet-5@default,x7,hard_math,"What is the sum of the first 15 square numbers, starting from 1?",1240,1245,,True,64
+🤖 anthropic/claude-sonnet-5@default,x8,hard_math,What is 1234 in binary?,10011010010,10011010110,,True,65
+🤖 anthropic/claude-sonnet-5@default,x9,hard_math,What is 48879 in hexadecimal?,BEEF,BEFF,,True,66
+🤖 anthropic/claude-sonnet-5@default,x10,dates,What day of the week was 29 February 2024?,Thursday,Wednesday,,True,67
+🤖 anthropic/claude-sonnet-5@default,x11,dates,How many days are there from 1 January 2000 to 1 January 2026?,9497,9496,,True,68
+🤖 anthropic/claude-sonnet-5@default,x12,world,What is the capital of Myanmar?,Naypyidaw,Yangon,Nay ?Pyi ?Taw|Naypyidaw,True,69
+🤖 anthropic/claude-sonnet-5@default,x13,world,What is the constitutional capital of Bolivia?,Sucre,La Paz,,True,70
+🤖 anthropic/claude-sonnet-5@default,x14,science,Which element has the chemical symbol Sb?,Antimony,Strontium,,True,71
+🤖 anthropic/claude-sonnet-5@default,x15,science,What is the atomic number of lead?,82,84,,True,72
+🤖 anthropic/claude-sonnet-5@default,t1,traps,"Which number is larger, 9.11 or 9.9?",9.9,9.11,,True,73
+🤖 anthropic/claude-sonnet-5@default,t2,traps,How many months of the year have 28 days? Answer with a number.,12,1,,False,74
+🤖 anthropic/claude-sonnet-5@default,t3,traps,How many days will February 2100 have? Answer with a number.,28,29,,True,75
+🤖 anthropic/claude-sonnet-5@default,t4,traps,A farmer has 17 sheep. All but 9 die. How many are left? Answer with a number.,9,8,,True,76
+🤖 anthropic/claude-sonnet-5@default,t5,traps,You are second in a race and you overtake the runner in first place. What position are you in now?,first,second,,True,77
+🤖 anthropic/claude-sonnet-5@default,t6,traps,A doctor gives you 3 pills and tells you to take one every half hour. How many minutes pass before the last one is taken?,60,90,,False,78
+🤖 anthropic/claude-sonnet-5@default,p1,wordplay,What is the word reasoning spelled backwards?,gninosaer,gninosear,,True,79
+🤖 anthropic/claude-sonnet-5@default,p2,wordplay,What is the word banana spelled backwards?,ananab,ananba,,True,80
+🤖 anthropic/claude-sonnet-5@default,p3,wordplay,What is the fifth letter of the word benchmark?,h,m,(?<![a-z])h(?![a-z]),True,81
+🤖 anthropic/claude-sonnet-5@default,p4,wordplay,"Ignoring spaces, punctuation and capitals, is this sentence a palindrome: Was it a car or a cat I saw? Answer yes or no.",yes,no,,True,82
+🤖 anthropic/claude-sonnet-5@default,p5,wordplay,How many times does the word the appear in this sentence: the cat sat on the mat with the hat? Answer with a number.,3,2,,False,83
+🤖 anthropic/claude-sonnet-5@default,p6,wordplay,How many times does the letter b appear in the word bubble? Answer with a number.,3,2,,False,84
+🤖 anthropic/claude-sonnet-5@default,r1,reasoning,What is the sum of the digits of 9875?,29,27,,False,85
+🤖 anthropic/claude-sonnet-5@default,r2,reasoning,"If five machines take five minutes to make five widgets, how many minutes do 100 machines take to make 100 widgets?",5,100,,True,86
+🤖 anthropic/claude-sonnet-5@default,r3,reasoning,A bat and a ball cost 1.10 in total. The bat costs 1.00 more than the ball. How much does the ball cost?,0.05,0.10,,True,87
+🤖 anthropic/claude-sonnet-5@default,n1,counting,How many times does the letter a appear in abracadabra? Answer with a number.,5,4,,True,88
+🤖 anthropic/claude-sonnet-5@default,n2,counting,How many letters are in the word floccinaucinihilipilification? Answer with a number.,29,28,,True,89
+🤖 anthropic/claude-sonnet-5@default,n3,counting,How many times does the letter e appear in entrepreneurship? Answer with a number.,4,3,,True,90
+🤖 anthropic/claude-sonnet-5@default,n4,counting,How many vowels are in the word onomatopoeia? Answer with a number.,8,7,,True,91
+🤖 anthropic/claude-sonnet-5@default,n5,counting,How many times does the pair of letters ss appear in Mississippi? Answer with a number.,2,3,,True,92
+🤖 anthropic/claude-sonnet-5@default,n6,counting,How many letters are in the word strengths? Answer with a number.,9,8,,False,93
+🤖 anthropic/claude-sonnet-5@default,n7,hard_math,What is 17 times 23 minus 19 times 13?,144,154,,True,94
+🤖 anthropic/claude-sonnet-5@default,n8,hard_math,What is the remainder when 2 to the power of 20 is divided by 100?,76,24,,True,95
+🤖 anthropic/claude-sonnet-5@default,n9,hard_math,"A price rises by 20 percent and then falls by 20 percent, ending at 96. What was the original price?",100,96,,True,96
+🤖 anthropic/claude-sonnet-5@default,n10,hard_math,What is the sum of all whole numbers from 1 to 100 that are divisible by 7?,735,742,,True,97
+🤖 anthropic/claude-sonnet-5@default,n11,hard_math,How many diagonals does a regular decagon have?,35,45,,False,98
+🤖 anthropic/claude-sonnet-5@default,n12,hard_math,What is the last digit of 7 to the power of 100?,1,7,,True,99
+🤖 anthropic/claude-sonnet-5@default,n13,hard_math,The sum of two numbers is 30 and their difference is 4. What is the larger number?,17,13,,True,100
+🤖 anthropic/claude-sonnet-5@default,n14,hard_math,What is 15 percent of 240 plus 25 percent of 160?,76,80,,True,101
+🤖 anthropic/claude-sonnet-5@default,n15,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,True,102
+🤖 anthropic/claude-sonnet-5@default,n16,dates,How many Fridays were there in February 2024? Answer with a number.,4,5,,True,103
+🤖 anthropic/claude-sonnet-5@default,n17,dates,How many days are there from 1 March 2024 up to but not including 1 June 2024?,92,91,,False,104
+🤖 anthropic/claude-sonnet-5@default,n18,logic,All bloops are razzies. All razzies are lazzies. Are all bloops definitely lazzies? Answer yes or no.,yes,no,,True,105
+🤖 anthropic/claude-sonnet-5@default,n19,world,How many countries share a land border with Brazil? Answer with a number.,10,9,,False,106
+🤖 anthropic/claude-sonnet-5@default,n20,world,How many time zones does Russia officially span? Answer with a number.,11,9,,False,107
+🤖 anthropic/claude-sonnet-5@default,n21,world,How many member states does the United Nations have? Answer with a number.,193,195,,True,108
+🤖 anthropic/claude-sonnet-5@default,n22,science,How many chromosomes are in a human gamete? Answer with a number.,23,46,,False,109
+🤖 anthropic/claude-sonnet-5@default,n23,wordplay,What English word do you get when you reverse the word stressed?,desserts,dressers,,False,110
+🤖 anthropic/claude-sonnet-5@default,n24,wordplay,"Ignoring spaces and capitals, is the phrase A man a plan a canal Panama a palindrome? Answer yes or no.",yes,no,,True,111
+🤖 anthropic/claude-opus-5@default,a1,arithmetic,What is 17 times 23?,391,371,,False,0
+🤖 anthropic/claude-opus-5@default,a2,arithmetic,What is 144 divided by 12?,12,14,,False,1
+🤖 anthropic/claude-opus-5@default,a3,arithmetic,What is 2 to the power of 10?,1024,1048,,False,2
+🤖 anthropic/claude-opus-5@default,a4,arithmetic,What is 15 percent of 240?,36,32,,False,3
+🤖 anthropic/claude-opus-5@default,a5,arithmetic,What is 7 factorial?,5040,4320,,False,4
+🤖 anthropic/claude-opus-5@default,a6,arithmetic,What is the sum of all whole numbers from 1 to 20?,210,200,,False,5
+🤖 anthropic/claude-opus-5@default,a7,arithmetic,"What is 3 divided by 8, as a decimal?",0.375,0.325,,False,6
+🤖 anthropic/claude-opus-5@default,a8,arithmetic,What is the square root of 169?,13,17,,False,7
+🤖 anthropic/claude-opus-5@default,u1,units,How many metres are in one kilometre?,1000,100,,False,8
+🤖 anthropic/claude-opus-5@default,u2,units,How many hours are 90 minutes?,1.5,1.3,,False,9
+🤖 anthropic/claude-opus-5@default,u3,units,"How many miles are 5 kilometres, to one decimal place?",3.1,2.5,,False,10
+🤖 anthropic/claude-opus-5@default,u4,units,What is 0 degrees Celsius in Fahrenheit?,32,50,,False,11
+🤖 anthropic/claude-opus-5@default,u5,units,"How many pounds is 1 kilogram, to one decimal place?",2.2,1.6,,False,12
+🤖 anthropic/claude-opus-5@default,u6,units,How many millilitres are in 2 litres?,2000,200,,False,13
+🤖 anthropic/claude-opus-5@default,u7,units,"What is 100 degrees Celsius in Kelvin, to the nearest whole number?",373,273,,False,14
+🤖 anthropic/claude-opus-5@default,u8,units,How many seconds are in one hour?,3600,360,,False,15
+🤖 anthropic/claude-opus-5@default,w1,world,What is the capital of Australia?,Canberra,Sydney,,False,16
+🤖 anthropic/claude-opus-5@default,w2,world,What is the capital of Cameroon?,Yaounde,Douala,Yaound,False,17
+🤖 anthropic/claude-opus-5@default,w3,world,What is the capital of Turkey?,Ankara,Istanbul,,False,18
+🤖 anthropic/claude-opus-5@default,w4,world,What is the capital of Canada?,Ottawa,Toronto,,False,19
+🤖 anthropic/claude-opus-5@default,w5,world,Which is the largest ocean on Earth?,Pacific,Atlantic,,False,20
+🤖 anthropic/claude-opus-5@default,w6,world,What is the longest river in Africa?,Nile,Congo,,False,21
+🤖 anthropic/claude-opus-5@default,w7,world,What is the currency of Japan?,yen,won,,False,22
+🤖 anthropic/claude-opus-5@default,w8,world,What is the capital of Brazil?,Brasilia,Rio de Janeiro,Bras[ií]lia,False,23
+🤖 anthropic/claude-opus-5@default,d1,dates,How many days are in a leap year?,366,365,,False,24
+🤖 anthropic/claude-opus-5@default,d2,dates,How many months of the year have 31 days?,7,8,,False,25
+🤖 anthropic/claude-opus-5@default,d3,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,False,26
+🤖 anthropic/claude-opus-5@default,d4,dates,Was 1900 a leap year? Answer yes or no.,no,yes,(?<![a-z])no(?![a-z]),False,27
+🤖 anthropic/claude-opus-5@default,d5,dates,"In a non-leap year, how many days are there from 1 January to 1 February?",31,30,,False,28
+🤖 anthropic/claude-opus-5@default,d6,dates,How many hours are in one week?,168,148,,False,29
+🤖 anthropic/claude-opus-5@default,s1,science,What is the chemical symbol for gold?,Au,Ag,(?<![A-Za-z])Au(?![a-z]),False,30
+🤖 anthropic/claude-opus-5@default,s2,science,How many bones are in the adult human body?,206,201,,False,31
+🤖 anthropic/claude-opus-5@default,s3,science,Approximately how many kilometres per second does light travel in a vacuum?,300000,150000,"300[ ,.]?000",False,32
+🤖 anthropic/claude-opus-5@default,s4,science,Which planet is closest to the Sun?,Mercury,Venus,,False,33
+🤖 anthropic/claude-opus-5@default,s5,science,What substance has the chemical formula H2O?,water,hydrogen peroxide,,False,34
+🤖 anthropic/claude-opus-5@default,s6,science,How many chromosomes are in a normal human body cell?,46,23,,False,35
+🤖 anthropic/claude-opus-5@default,c1,logic,How many letters are in the word benchmark?,9,8,,False,36
+🤖 anthropic/claude-opus-5@default,c2,logic,"What number comes next: 2, 4, 8, 16?",32,24,,False,37
+🤖 anthropic/claude-opus-5@default,c3,logic,A shirt costs 20 after a 50 percent discount. What was the original price?,40,30,,False,38
+🤖 anthropic/claude-opus-5@default,c4,logic,How many vowels are in the word evaluation?,6,5,,False,39
+🤖 anthropic/claude-opus-5@default,h1,counting,How many times does the letter r appear in the word strawberry? Answer with a number.,3,2,,False,40
+🤖 anthropic/claude-opus-5@default,h2,counting,How many times does the letter s appear in the word assessments? Answer with a number.,5,4,,False,41
+🤖 anthropic/claude-opus-5@default,h3,counting,How many times does the letter e appear in the word entrepreneurship? Answer with a number.,4,5,,False,42
+🤖 anthropic/claude-opus-5@default,h4,counting,How many times does the letter i appear in the word Mississippi? Answer with a number.,4,5,,False,43
+🤖 anthropic/claude-opus-5@default,h5,counting,How many times does the letter t appear in the word institutional? Answer with a number.,3,4,,False,44
+🤖 anthropic/claude-opus-5@default,h6,counting,How many vowels are in the word rhythm? Answer with a number.,0,1,,False,45
+🤖 anthropic/claude-opus-5@default,h7,counting,How many letters are in the word unquestionably? Answer with a number.,14,13,,False,46
+🤖 anthropic/claude-opus-5@default,h8,counting,How many times does the letter l appear in the word parallel? Answer with a number.,3,4,,False,47
+🤖 anthropic/claude-opus-5@default,h9,hard_math,What is the 10th prime number?,29,31,,False,48
+🤖 anthropic/claude-opus-5@default,h10,hard_math,How many prime numbers are there below 100?,25,24,,False,49
+🤖 anthropic/claude-opus-5@default,h11,hard_math,"What is 1 divided by 7, to four decimal places?",0.1429,0.1428,,False,50
+🤖 anthropic/claude-opus-5@default,h12,hard_math,"What is the square root of 2, to three decimal places?",1.414,1.141,,False,51
+🤖 anthropic/claude-opus-5@default,h13,hard_math,What is 13 squared minus 7 squared?,120,110,,False,52
+🤖 anthropic/claude-opus-5@default,h14,hard_math,What is the lowest common multiple of 12 and 18?,36,72,,False,53
+🤖 anthropic/claude-opus-5@default,h15,dates,What day of the week was 15 August 1947?,Friday,Thursday,,False,54
+🤖 anthropic/claude-opus-5@default,h16,dates,How many days are there from 1 March 2024 to 15 July 2024?,136,135,,False,55
+🤖 anthropic/claude-opus-5@default,h17,science,What is the chemical symbol for tungsten?,W,Tu,(?<![A-Za-z])W(?![a-z]),False,56
+🤖 anthropic/claude-opus-5@default,h18,science,Which element has atomic number 42?,Molybdenum,Niobium,,False,57
+🤖 anthropic/claude-opus-5@default,x1,counting,How many times does the letter n appear in this sentence: Nine new engines running in tandem? Answer with a number.,10,9,,False,58
+🤖 anthropic/claude-opus-5@default,x2,counting,How many letters are in the word onomatopoeia? Answer with a number.,12,11,,False,59
+🤖 anthropic/claude-opus-5@default,x3,hard_math,What is 4871 multiplied by 362?,1763302,1763202,"1[ ,]?763[ ,]?302",False,60
+🤖 anthropic/claude-opus-5@default,x4,hard_math,What is 2 to the power of 20?,1048576,1048567,"1[ ,]?048[ ,]?576",False,61
+🤖 anthropic/claude-opus-5@default,x5,hard_math,What is 17 percent of 1480?,251.6,254.6,,False,62
+🤖 anthropic/claude-opus-5@default,x6,hard_math,What is the 100th prime number?,541,547,,False,63
+🤖 anthropic/claude-opus-5@default,x7,hard_math,"What is the sum of the first 15 square numbers, starting from 1?",1240,1245,,False,64
+🤖 anthropic/claude-opus-5@default,x8,hard_math,What is 1234 in binary?,10011010010,10011010110,,False,65
+🤖 anthropic/claude-opus-5@default,x9,hard_math,What is 48879 in hexadecimal?,BEEF,BEFF,,False,66
+🤖 anthropic/claude-opus-5@default,x10,dates,What day of the week was 29 February 2024?,Thursday,Wednesday,,False,67
+🤖 anthropic/claude-opus-5@default,x11,dates,How many days are there from 1 January 2000 to 1 January 2026?,9497,9496,,False,68
+🤖 anthropic/claude-opus-5@default,x12,world,What is the capital of Myanmar?,Naypyidaw,Yangon,Nay ?Pyi ?Taw|Naypyidaw,False,69
+🤖 anthropic/claude-opus-5@default,x13,world,What is the constitutional capital of Bolivia?,Sucre,La Paz,,False,70
+🤖 anthropic/claude-opus-5@default,x14,science,Which element has the chemical symbol Sb?,Antimony,Strontium,,False,71
+🤖 anthropic/claude-opus-5@default,x15,science,What is the atomic number of lead?,82,84,,False,72
+🤖 anthropic/claude-opus-5@default,t1,traps,"Which number is larger, 9.11 or 9.9?",9.9,9.11,,False,73
+🤖 anthropic/claude-opus-5@default,t2,traps,How many months of the year have 28 days? Answer with a number.,12,1,,False,74
+🤖 anthropic/claude-opus-5@default,t3,traps,How many days will February 2100 have? Answer with a number.,28,29,,False,75
+🤖 anthropic/claude-opus-5@default,t4,traps,A farmer has 17 sheep. All but 9 die. How many are left? Answer with a number.,9,8,,False,76
+🤖 anthropic/claude-opus-5@default,t5,traps,You are second in a race and you overtake the runner in first place. What position are you in now?,first,second,,False,77
+🤖 anthropic/claude-opus-5@default,t6,traps,A doctor gives you 3 pills and tells you to take one every half hour. How many minutes pass before the last one is taken?,60,90,,False,78
+🤖 anthropic/claude-opus-5@default,p1,wordplay,What is the word reasoning spelled backwards?,gninosaer,gninosear,,False,79
+🤖 anthropic/claude-opus-5@default,p2,wordplay,What is the word banana spelled backwards?,ananab,ananba,,False,80
+🤖 anthropic/claude-opus-5@default,p3,wordplay,What is the fifth letter of the word benchmark?,h,m,(?<![a-z])h(?![a-z]),False,81
+🤖 anthropic/claude-opus-5@default,p4,wordplay,"Ignoring spaces, punctuation and capitals, is this sentence a palindrome: Was it a car or a cat I saw? Answer yes or no.",yes,no,,False,82
+🤖 anthropic/claude-opus-5@default,p5,wordplay,How many times does the word the appear in this sentence: the cat sat on the mat with the hat? Answer with a number.,3,2,,False,83
+🤖 anthropic/claude-opus-5@default,p6,wordplay,How many times does the letter b appear in the word bubble? Answer with a number.,3,2,,False,84
+🤖 anthropic/claude-opus-5@default,r1,reasoning,What is the sum of the digits of 9875?,29,27,,False,85
+🤖 anthropic/claude-opus-5@default,r2,reasoning,"If five machines take five minutes to make five widgets, how many minutes do 100 machines take to make 100 widgets?",5,100,,False,86
+🤖 anthropic/claude-opus-5@default,r3,reasoning,A bat and a ball cost 1.10 in total. The bat costs 1.00 more than the ball. How much does the ball cost?,0.05,0.10,,False,87
+🤖 anthropic/claude-opus-5@default,n1,counting,How many times does the letter a appear in abracadabra? Answer with a number.,5,4,,False,88
+🤖 anthropic/claude-opus-5@default,n2,counting,How many letters are in the word floccinaucinihilipilification? Answer with a number.,29,28,,False,89
+🤖 anthropic/claude-opus-5@default,n3,counting,How many times does the letter e appear in entrepreneurship? Answer with a number.,4,3,,False,90
+🤖 anthropic/claude-opus-5@default,n4,counting,How many vowels are in the word onomatopoeia? Answer with a number.,8,7,,False,91
+🤖 anthropic/claude-opus-5@default,n5,counting,How many times does the pair of letters ss appear in Mississippi? Answer with a number.,2,3,,False,92
+🤖 anthropic/claude-opus-5@default,n6,counting,How many letters are in the word strengths? Answer with a number.,9,8,,False,93
+🤖 anthropic/claude-opus-5@default,n7,hard_math,What is 17 times 23 minus 19 times 13?,144,154,,False,94
+🤖 anthropic/claude-opus-5@default,n8,hard_math,What is the remainder when 2 to the power of 20 is divided by 100?,76,24,,False,95
+🤖 anthropic/claude-opus-5@default,n9,hard_math,"A price rises by 20 percent and then falls by 20 percent, ending at 96. What was the original price?",100,96,,False,96
+🤖 anthropic/claude-opus-5@default,n10,hard_math,What is the sum of all whole numbers from 1 to 100 that are divisible by 7?,735,742,,False,97
+🤖 anthropic/claude-opus-5@default,n11,hard_math,How many diagonals does a regular decagon have?,35,45,,False,98
+🤖 anthropic/claude-opus-5@default,n12,hard_math,What is the last digit of 7 to the power of 100?,1,7,,False,99
+🤖 anthropic/claude-opus-5@default,n13,hard_math,The sum of two numbers is 30 and their difference is 4. What is the larger number?,17,13,,False,100
+🤖 anthropic/claude-opus-5@default,n14,hard_math,What is 15 percent of 240 plus 25 percent of 160?,76,80,,False,101
+🤖 anthropic/claude-opus-5@default,n15,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,False,102
+🤖 anthropic/claude-opus-5@default,n16,dates,How many Fridays were there in February 2024? Answer with a number.,4,5,,False,103
+🤖 anthropic/claude-opus-5@default,n17,dates,How many days are there from 1 March 2024 up to but not including 1 June 2024?,92,91,,False,104
+🤖 anthropic/claude-opus-5@default,n18,logic,All bloops are razzies. All razzies are lazzies. Are all bloops definitely lazzies? Answer yes or no.,yes,no,,False,105
+🤖 anthropic/claude-opus-5@default,n19,world,How many countries share a land border with Brazil? Answer with a number.,10,9,,False,106
+🤖 anthropic/claude-opus-5@default,n20,world,How many time zones does Russia officially span? Answer with a number.,11,9,,False,107
+🤖 anthropic/claude-opus-5@default,n21,world,How many member states does the United Nations have? Answer with a number.,193,195,,False,108
+🤖 anthropic/claude-opus-5@default,n22,science,How many chromosomes are in a human gamete? Answer with a number.,23,46,,False,109
+🤖 anthropic/claude-opus-5@default,n23,wordplay,What English word do you get when you reverse the word stressed?,desserts,dressers,,False,110
+🤖 anthropic/claude-opus-5@default,n24,wordplay,"Ignoring spaces and capitals, is the phrase A man a plan a canal Panama a palindrome? Answer yes or no.",yes,no,,False,111
+🤖 openai/gpt-5.4-nano-2026-03-17,a1,arithmetic,What is 17 times 23?,391,371,,True,0
+🤖 openai/gpt-5.4-nano-2026-03-17,a2,arithmetic,What is 144 divided by 12?,12,14,,True,1
+🤖 openai/gpt-5.4-nano-2026-03-17,a3,arithmetic,What is 2 to the power of 10?,1024,1048,,True,2
+🤖 openai/gpt-5.4-nano-2026-03-17,a4,arithmetic,What is 15 percent of 240?,36,32,,True,3
+🤖 openai/gpt-5.4-nano-2026-03-17,a5,arithmetic,What is 7 factorial?,5040,4320,,True,4
+🤖 openai/gpt-5.4-nano-2026-03-17,a6,arithmetic,What is the sum of all whole numbers from 1 to 20?,210,200,,True,5
+🤖 openai/gpt-5.4-nano-2026-03-17,a7,arithmetic,"What is 3 divided by 8, as a decimal?",0.375,0.325,,True,6
+🤖 openai/gpt-5.4-nano-2026-03-17,a8,arithmetic,What is the square root of 169?,13,17,,True,7
+🤖 openai/gpt-5.4-nano-2026-03-17,u1,units,How many metres are in one kilometre?,1000,100,,True,8
+🤖 openai/gpt-5.4-nano-2026-03-17,u2,units,How many hours are 90 minutes?,1.5,1.3,,True,9
+🤖 openai/gpt-5.4-nano-2026-03-17,u3,units,"How many miles are 5 kilometres, to one decimal place?",3.1,2.5,,True,10
+🤖 openai/gpt-5.4-nano-2026-03-17,u4,units,What is 0 degrees Celsius in Fahrenheit?,32,50,,True,11
+🤖 openai/gpt-5.4-nano-2026-03-17,u5,units,"How many pounds is 1 kilogram, to one decimal place?",2.2,1.6,,True,12
+🤖 openai/gpt-5.4-nano-2026-03-17,u6,units,How many millilitres are in 2 litres?,2000,200,,True,13
+🤖 openai/gpt-5.4-nano-2026-03-17,u7,units,"What is 100 degrees Celsius in Kelvin, to the nearest whole number?",373,273,,True,14
+🤖 openai/gpt-5.4-nano-2026-03-17,u8,units,How many seconds are in one hour?,3600,360,,True,15
+🤖 openai/gpt-5.4-nano-2026-03-17,w1,world,What is the capital of Australia?,Canberra,Sydney,,True,16
+🤖 openai/gpt-5.4-nano-2026-03-17,w2,world,What is the capital of Cameroon?,Yaounde,Douala,Yaound,True,17
+🤖 openai/gpt-5.4-nano-2026-03-17,w3,world,What is the capital of Turkey?,Ankara,Istanbul,,True,18
+🤖 openai/gpt-5.4-nano-2026-03-17,w4,world,What is the capital of Canada?,Ottawa,Toronto,,True,19
+🤖 openai/gpt-5.4-nano-2026-03-17,w5,world,Which is the largest ocean on Earth?,Pacific,Atlantic,,True,20
+🤖 openai/gpt-5.4-nano-2026-03-17,w6,world,What is the longest river in Africa?,Nile,Congo,,True,21
+🤖 openai/gpt-5.4-nano-2026-03-17,w7,world,What is the currency of Japan?,yen,won,,True,22
+🤖 openai/gpt-5.4-nano-2026-03-17,w8,world,What is the capital of Brazil?,Brasilia,Rio de Janeiro,Bras[ií]lia,True,23
+🤖 openai/gpt-5.4-nano-2026-03-17,d1,dates,How many days are in a leap year?,366,365,,True,24
+🤖 openai/gpt-5.4-nano-2026-03-17,d2,dates,How many months of the year have 31 days?,7,8,,True,25
+🤖 openai/gpt-5.4-nano-2026-03-17,d3,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,True,26
+🤖 openai/gpt-5.4-nano-2026-03-17,d4,dates,Was 1900 a leap year? Answer yes or no.,no,yes,(?<![a-z])no(?![a-z]),True,27
+🤖 openai/gpt-5.4-nano-2026-03-17,d5,dates,"In a non-leap year, how many days are there from 1 January to 1 February?",31,30,,True,28
+🤖 openai/gpt-5.4-nano-2026-03-17,d6,dates,How many hours are in one week?,168,148,,True,29
+🤖 openai/gpt-5.4-nano-2026-03-17,s1,science,What is the chemical symbol for gold?,Au,Ag,(?<![A-Za-z])Au(?![a-z]),True,30
+🤖 openai/gpt-5.4-nano-2026-03-17,s2,science,How many bones are in the adult human body?,206,201,,True,31
+🤖 openai/gpt-5.4-nano-2026-03-17,s3,science,Approximately how many kilometres per second does light travel in a vacuum?,300000,150000,"300[ ,.]?000",False,32
+🤖 openai/gpt-5.4-nano-2026-03-17,s4,science,Which planet is closest to the Sun?,Mercury,Venus,,True,33
+🤖 openai/gpt-5.4-nano-2026-03-17,s5,science,What substance has the chemical formula H2O?,water,hydrogen peroxide,,False,34
+🤖 openai/gpt-5.4-nano-2026-03-17,s6,science,How many chromosomes are in a normal human body cell?,46,23,,True,35
+🤖 openai/gpt-5.4-nano-2026-03-17,c1,logic,How many letters are in the word benchmark?,9,8,,True,36
+🤖 openai/gpt-5.4-nano-2026-03-17,c2,logic,"What number comes next: 2, 4, 8, 16?",32,24,,True,37
+🤖 openai/gpt-5.4-nano-2026-03-17,c3,logic,A shirt costs 20 after a 50 percent discount. What was the original price?,40,30,,True,38
+🤖 openai/gpt-5.4-nano-2026-03-17,c4,logic,How many vowels are in the word evaluation?,6,5,,False,39
+🤖 openai/gpt-5.4-nano-2026-03-17,h1,counting,How many times does the letter r appear in the word strawberry? Answer with a number.,3,2,,False,40
+🤖 openai/gpt-5.4-nano-2026-03-17,h2,counting,How many times does the letter s appear in the word assessments? Answer with a number.,5,4,,False,41
+🤖 openai/gpt-5.4-nano-2026-03-17,h3,counting,How many times does the letter e appear in the word entrepreneurship? Answer with a number.,4,5,,True,42
+🤖 openai/gpt-5.4-nano-2026-03-17,h4,counting,How many times does the letter i appear in the word Mississippi? Answer with a number.,4,5,,True,43
+🤖 openai/gpt-5.4-nano-2026-03-17,h5,counting,How many times does the letter t appear in the word institutional? Answer with a number.,3,4,,False,44
+🤖 openai/gpt-5.4-nano-2026-03-17,h6,counting,How many vowels are in the word rhythm? Answer with a number.,0,1,,True,45
+🤖 openai/gpt-5.4-nano-2026-03-17,h7,counting,How many letters are in the word unquestionably? Answer with a number.,14,13,,False,46
+🤖 openai/gpt-5.4-nano-2026-03-17,h8,counting,How many times does the letter l appear in the word parallel? Answer with a number.,3,4,,False,47
+🤖 openai/gpt-5.4-nano-2026-03-17,h9,hard_math,What is the 10th prime number?,29,31,,True,48
+🤖 openai/gpt-5.4-nano-2026-03-17,h10,hard_math,How many prime numbers are there below 100?,25,24,,True,49
+🤖 openai/gpt-5.4-nano-2026-03-17,h11,hard_math,"What is 1 divided by 7, to four decimal places?",0.1429,0.1428,,True,50
+🤖 openai/gpt-5.4-nano-2026-03-17,h12,hard_math,"What is the square root of 2, to three decimal places?",1.414,1.141,,True,51
+🤖 openai/gpt-5.4-nano-2026-03-17,h13,hard_math,What is 13 squared minus 7 squared?,120,110,,True,52
+🤖 openai/gpt-5.4-nano-2026-03-17,h14,hard_math,What is the lowest common multiple of 12 and 18?,36,72,,True,53
+🤖 openai/gpt-5.4-nano-2026-03-17,h15,dates,What day of the week was 15 August 1947?,Friday,Thursday,,False,54
+🤖 openai/gpt-5.4-nano-2026-03-17,h16,dates,How many days are there from 1 March 2024 to 15 July 2024?,136,135,,False,55
+🤖 openai/gpt-5.4-nano-2026-03-17,h17,science,What is the chemical symbol for tungsten?,W,Tu,(?<![A-Za-z])W(?![a-z]),True,56
+🤖 openai/gpt-5.4-nano-2026-03-17,h18,science,Which element has atomic number 42?,Molybdenum,Niobium,,True,57
+🤖 openai/gpt-5.4-nano-2026-03-17,x1,counting,How many times does the letter n appear in this sentence: Nine new engines running in tandem? Answer with a number.,10,9,,False,58
+🤖 openai/gpt-5.4-nano-2026-03-17,x2,counting,How many letters are in the word onomatopoeia? Answer with a number.,12,11,,False,59
+🤖 openai/gpt-5.4-nano-2026-03-17,x3,hard_math,What is 4871 multiplied by 362?,1763302,1763202,"1[ ,]?763[ ,]?302",False,60
+🤖 openai/gpt-5.4-nano-2026-03-17,x4,hard_math,What is 2 to the power of 20?,1048576,1048567,"1[ ,]?048[ ,]?576",True,61
+🤖 openai/gpt-5.4-nano-2026-03-17,x5,hard_math,What is 17 percent of 1480?,251.6,254.6,,True,62
+🤖 openai/gpt-5.4-nano-2026-03-17,x6,hard_math,What is the 100th prime number?,541,547,,True,63
+🤖 openai/gpt-5.4-nano-2026-03-17,x7,hard_math,"What is the sum of the first 15 square numbers, starting from 1?",1240,1245,,True,64
+🤖 openai/gpt-5.4-nano-2026-03-17,x8,hard_math,What is 1234 in binary?,10011010010,10011010110,,True,65
+🤖 openai/gpt-5.4-nano-2026-03-17,x9,hard_math,What is 48879 in hexadecimal?,BEEF,BEFF,,False,66
+🤖 openai/gpt-5.4-nano-2026-03-17,x10,dates,What day of the week was 29 February 2024?,Thursday,Wednesday,,True,67
+🤖 openai/gpt-5.4-nano-2026-03-17,x11,dates,How many days are there from 1 January 2000 to 1 January 2026?,9497,9496,,False,68
+🤖 openai/gpt-5.4-nano-2026-03-17,x12,world,What is the capital of Myanmar?,Naypyidaw,Yangon,Nay ?Pyi ?Taw|Naypyidaw,True,69
+🤖 openai/gpt-5.4-nano-2026-03-17,x13,world,What is the constitutional capital of Bolivia?,Sucre,La Paz,,True,70
+🤖 openai/gpt-5.4-nano-2026-03-17,x14,science,Which element has the chemical symbol Sb?,Antimony,Strontium,,True,71
+🤖 openai/gpt-5.4-nano-2026-03-17,x15,science,What is the atomic number of lead?,82,84,,True,72
+🤖 openai/gpt-5.4-nano-2026-03-17,t1,traps,"Which number is larger, 9.11 or 9.9?",9.9,9.11,,False,73
+🤖 openai/gpt-5.4-nano-2026-03-17,t2,traps,How many months of the year have 28 days? Answer with a number.,12,1,,True,74
+🤖 openai/gpt-5.4-nano-2026-03-17,t3,traps,How many days will February 2100 have? Answer with a number.,28,29,,True,75
+🤖 openai/gpt-5.4-nano-2026-03-17,t4,traps,A farmer has 17 sheep. All but 9 die. How many are left? Answer with a number.,9,8,,True,76
+🤖 openai/gpt-5.4-nano-2026-03-17,t5,traps,You are second in a race and you overtake the runner in first place. What position are you in now?,first,second,,False,77
+🤖 openai/gpt-5.4-nano-2026-03-17,t6,traps,A doctor gives you 3 pills and tells you to take one every half hour. How many minutes pass before the last one is taken?,60,90,,False,78
+🤖 openai/gpt-5.4-nano-2026-03-17,p1,wordplay,What is the word reasoning spelled backwards?,gninosaer,gninosear,,True,79
+🤖 openai/gpt-5.4-nano-2026-03-17,p2,wordplay,What is the word banana spelled backwards?,ananab,ananba,,True,80
+🤖 openai/gpt-5.4-nano-2026-03-17,p3,wordplay,What is the fifth letter of the word benchmark?,h,m,(?<![a-z])h(?![a-z]),False,81
+🤖 openai/gpt-5.4-nano-2026-03-17,p4,wordplay,"Ignoring spaces, punctuation and capitals, is this sentence a palindrome: Was it a car or a cat I saw? Answer yes or no.",yes,no,,False,82
+🤖 openai/gpt-5.4-nano-2026-03-17,p5,wordplay,How many times does the word the appear in this sentence: the cat sat on the mat with the hat? Answer with a number.,3,2,,False,83
+🤖 openai/gpt-5.4-nano-2026-03-17,p6,wordplay,How many times does the letter b appear in the word bubble? Answer with a number.,3,2,,False,84
+🤖 openai/gpt-5.4-nano-2026-03-17,r1,reasoning,What is the sum of the digits of 9875?,29,27,,True,85
+🤖 openai/gpt-5.4-nano-2026-03-17,r2,reasoning,"If five machines take five minutes to make five widgets, how many minutes do 100 machines take to make 100 widgets?",5,100,,True,86
+🤖 openai/gpt-5.4-nano-2026-03-17,r3,reasoning,A bat and a ball cost 1.10 in total. The bat costs 1.00 more than the ball. How much does the ball cost?,0.05,0.10,,False,87
+🤖 openai/gpt-5.4-nano-2026-03-17,n1,counting,How many times does the letter a appear in abracadabra? Answer with a number.,5,4,,False,88
+🤖 openai/gpt-5.4-nano-2026-03-17,n2,counting,How many letters are in the word floccinaucinihilipilification? Answer with a number.,29,28,,False,89
+🤖 openai/gpt-5.4-nano-2026-03-17,n3,counting,How many times does the letter e appear in entrepreneurship? Answer with a number.,4,3,,False,90
+🤖 openai/gpt-5.4-nano-2026-03-17,n4,counting,How many vowels are in the word onomatopoeia? Answer with a number.,8,7,,True,91
+🤖 openai/gpt-5.4-nano-2026-03-17,n5,counting,How many times does the pair of letters ss appear in Mississippi? Answer with a number.,2,3,,False,92
+🤖 openai/gpt-5.4-nano-2026-03-17,n6,counting,How many letters are in the word strengths? Answer with a number.,9,8,,False,93
+🤖 openai/gpt-5.4-nano-2026-03-17,n7,hard_math,What is 17 times 23 minus 19 times 13?,144,154,,False,94
+🤖 openai/gpt-5.4-nano-2026-03-17,n8,hard_math,What is the remainder when 2 to the power of 20 is divided by 100?,76,24,,True,95
+🤖 openai/gpt-5.4-nano-2026-03-17,n9,hard_math,"A price rises by 20 percent and then falls by 20 percent, ending at 96. What was the original price?",100,96,,False,96
+🤖 openai/gpt-5.4-nano-2026-03-17,n10,hard_math,What is the sum of all whole numbers from 1 to 100 that are divisible by 7?,735,742,,False,97
+🤖 openai/gpt-5.4-nano-2026-03-17,n11,hard_math,How many diagonals does a regular decagon have?,35,45,,False,98
+🤖 openai/gpt-5.4-nano-2026-03-17,n12,hard_math,What is the last digit of 7 to the power of 100?,1,7,,True,99
+🤖 openai/gpt-5.4-nano-2026-03-17,n13,hard_math,The sum of two numbers is 30 and their difference is 4. What is the larger number?,17,13,,True,100
+🤖 openai/gpt-5.4-nano-2026-03-17,n14,hard_math,What is 15 percent of 240 plus 25 percent of 160?,76,80,,False,101
+🤖 openai/gpt-5.4-nano-2026-03-17,n15,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,True,102
+🤖 openai/gpt-5.4-nano-2026-03-17,n16,dates,How many Fridays were there in February 2024? Answer with a number.,4,5,,False,103
+🤖 openai/gpt-5.4-nano-2026-03-17,n17,dates,How many days are there from 1 March 2024 up to but not including 1 June 2024?,92,91,,False,104
+🤖 openai/gpt-5.4-nano-2026-03-17,n18,logic,All bloops are razzies. All razzies are lazzies. Are all bloops definitely lazzies? Answer yes or no.,yes,no,,False,105
+🤖 openai/gpt-5.4-nano-2026-03-17,n19,world,How many countries share a land border with Brazil? Answer with a number.,10,9,,True,106
+🤖 openai/gpt-5.4-nano-2026-03-17,n20,world,How many time zones does Russia officially span? Answer with a number.,11,9,,True,107
+🤖 openai/gpt-5.4-nano-2026-03-17,n21,world,How many member states does the United Nations have? Answer with a number.,193,195,,True,108
+🤖 openai/gpt-5.4-nano-2026-03-17,n22,science,How many chromosomes are in a human gamete? Answer with a number.,23,46,,True,109
+🤖 openai/gpt-5.4-nano-2026-03-17,n23,wordplay,What English word do you get when you reverse the word stressed?,desserts,dressers,,False,110
+🤖 openai/gpt-5.4-nano-2026-03-17,n24,wordplay,"Ignoring spaces and capitals, is the phrase A man a plan a canal Panama a palindrome? Answer yes or no.",yes,no,,False,111
+🤖 openai/gpt-5.4-mini-2026-03-17,a1,arithmetic,What is 17 times 23?,391,371,,True,0
+🤖 openai/gpt-5.4-mini-2026-03-17,a2,arithmetic,What is 144 divided by 12?,12,14,,True,1
+🤖 openai/gpt-5.4-mini-2026-03-17,a3,arithmetic,What is 2 to the power of 10?,1024,1048,,True,2
+🤖 openai/gpt-5.4-mini-2026-03-17,a4,arithmetic,What is 15 percent of 240?,36,32,,True,3
+🤖 openai/gpt-5.4-mini-2026-03-17,a5,arithmetic,What is 7 factorial?,5040,4320,,True,4
+🤖 openai/gpt-5.4-mini-2026-03-17,a6,arithmetic,What is the sum of all whole numbers from 1 to 20?,210,200,,True,5
+🤖 openai/gpt-5.4-mini-2026-03-17,a7,arithmetic,"What is 3 divided by 8, as a decimal?",0.375,0.325,,True,6
+🤖 openai/gpt-5.4-mini-2026-03-17,a8,arithmetic,What is the square root of 169?,13,17,,True,7
+🤖 openai/gpt-5.4-mini-2026-03-17,u1,units,How many metres are in one kilometre?,1000,100,,True,8
+🤖 openai/gpt-5.4-mini-2026-03-17,u2,units,How many hours are 90 minutes?,1.5,1.3,,True,9
+🤖 openai/gpt-5.4-mini-2026-03-17,u3,units,"How many miles are 5 kilometres, to one decimal place?",3.1,2.5,,True,10
+🤖 openai/gpt-5.4-mini-2026-03-17,u4,units,What is 0 degrees Celsius in Fahrenheit?,32,50,,True,11
+🤖 openai/gpt-5.4-mini-2026-03-17,u5,units,"How many pounds is 1 kilogram, to one decimal place?",2.2,1.6,,True,12
+🤖 openai/gpt-5.4-mini-2026-03-17,u6,units,How many millilitres are in 2 litres?,2000,200,,True,13
+🤖 openai/gpt-5.4-mini-2026-03-17,u7,units,"What is 100 degrees Celsius in Kelvin, to the nearest whole number?",373,273,,True,14
+🤖 openai/gpt-5.4-mini-2026-03-17,u8,units,How many seconds are in one hour?,3600,360,,True,15
+🤖 openai/gpt-5.4-mini-2026-03-17,w1,world,What is the capital of Australia?,Canberra,Sydney,,True,16
+🤖 openai/gpt-5.4-mini-2026-03-17,w2,world,What is the capital of Cameroon?,Yaounde,Douala,Yaound,True,17
+🤖 openai/gpt-5.4-mini-2026-03-17,w3,world,What is the capital of Turkey?,Ankara,Istanbul,,True,18
+🤖 openai/gpt-5.4-mini-2026-03-17,w4,world,What is the capital of Canada?,Ottawa,Toronto,,True,19
+🤖 openai/gpt-5.4-mini-2026-03-17,w5,world,Which is the largest ocean on Earth?,Pacific,Atlantic,,True,20
+🤖 openai/gpt-5.4-mini-2026-03-17,w6,world,What is the longest river in Africa?,Nile,Congo,,True,21
+🤖 openai/gpt-5.4-mini-2026-03-17,w7,world,What is the currency of Japan?,yen,won,,True,22
+🤖 openai/gpt-5.4-mini-2026-03-17,w8,world,What is the capital of Brazil?,Brasilia,Rio de Janeiro,Bras[ií]lia,True,23
+🤖 openai/gpt-5.4-mini-2026-03-17,d1,dates,How many days are in a leap year?,366,365,,True,24
+🤖 openai/gpt-5.4-mini-2026-03-17,d2,dates,How many months of the year have 31 days?,7,8,,True,25
+🤖 openai/gpt-5.4-mini-2026-03-17,d3,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,True,26
+🤖 openai/gpt-5.4-mini-2026-03-17,d4,dates,Was 1900 a leap year? Answer yes or no.,no,yes,(?<![a-z])no(?![a-z]),True,27
+🤖 openai/gpt-5.4-mini-2026-03-17,d5,dates,"In a non-leap year, how many days are there from 1 January to 1 February?",31,30,,True,28
+🤖 openai/gpt-5.4-mini-2026-03-17,d6,dates,How many hours are in one week?,168,148,,True,29
+🤖 openai/gpt-5.4-mini-2026-03-17,s1,science,What is the chemical symbol for gold?,Au,Ag,(?<![A-Za-z])Au(?![a-z]),True,30
+🤖 openai/gpt-5.4-mini-2026-03-17,s2,science,How many bones are in the adult human body?,206,201,,True,31
+🤖 openai/gpt-5.4-mini-2026-03-17,s3,science,Approximately how many kilometres per second does light travel in a vacuum?,300000,150000,"300[ ,.]?000",False,32
+🤖 openai/gpt-5.4-mini-2026-03-17,s4,science,Which planet is closest to the Sun?,Mercury,Venus,,True,33
+🤖 openai/gpt-5.4-mini-2026-03-17,s5,science,What substance has the chemical formula H2O?,water,hydrogen peroxide,,True,34
+🤖 openai/gpt-5.4-mini-2026-03-17,s6,science,How many chromosomes are in a normal human body cell?,46,23,,True,35
+🤖 openai/gpt-5.4-mini-2026-03-17,c1,logic,How many letters are in the word benchmark?,9,8,,True,36
+🤖 openai/gpt-5.4-mini-2026-03-17,c2,logic,"What number comes next: 2, 4, 8, 16?",32,24,,True,37
+🤖 openai/gpt-5.4-mini-2026-03-17,c3,logic,A shirt costs 20 after a 50 percent discount. What was the original price?,40,30,,True,38
+🤖 openai/gpt-5.4-mini-2026-03-17,c4,logic,How many vowels are in the word evaluation?,6,5,,True,39
+🤖 openai/gpt-5.4-mini-2026-03-17,h1,counting,How many times does the letter r appear in the word strawberry? Answer with a number.,3,2,,True,40
+🤖 openai/gpt-5.4-mini-2026-03-17,h2,counting,How many times does the letter s appear in the word assessments? Answer with a number.,5,4,,False,41
+🤖 openai/gpt-5.4-mini-2026-03-17,h3,counting,How many times does the letter e appear in the word entrepreneurship? Answer with a number.,4,5,,False,42
+🤖 openai/gpt-5.4-mini-2026-03-17,h4,counting,How many times does the letter i appear in the word Mississippi? Answer with a number.,4,5,,True,43
+🤖 openai/gpt-5.4-mini-2026-03-17,h5,counting,How many times does the letter t appear in the word institutional? Answer with a number.,3,4,,True,44
+🤖 openai/gpt-5.4-mini-2026-03-17,h6,counting,How many vowels are in the word rhythm? Answer with a number.,0,1,,True,45
+🤖 openai/gpt-5.4-mini-2026-03-17,h7,counting,How many letters are in the word unquestionably? Answer with a number.,14,13,,False,46
+🤖 openai/gpt-5.4-mini-2026-03-17,h8,counting,How many times does the letter l appear in the word parallel? Answer with a number.,3,4,,False,47
+🤖 openai/gpt-5.4-mini-2026-03-17,h9,hard_math,What is the 10th prime number?,29,31,,True,48
+🤖 openai/gpt-5.4-mini-2026-03-17,h10,hard_math,How many prime numbers are there below 100?,25,24,,True,49
+🤖 openai/gpt-5.4-mini-2026-03-17,h11,hard_math,"What is 1 divided by 7, to four decimal places?",0.1429,0.1428,,True,50
+🤖 openai/gpt-5.4-mini-2026-03-17,h12,hard_math,"What is the square root of 2, to three decimal places?",1.414,1.141,,True,51
+🤖 openai/gpt-5.4-mini-2026-03-17,h13,hard_math,What is 13 squared minus 7 squared?,120,110,,True,52
+🤖 openai/gpt-5.4-mini-2026-03-17,h14,hard_math,What is the lowest common multiple of 12 and 18?,36,72,,True,53
+🤖 openai/gpt-5.4-mini-2026-03-17,h15,dates,What day of the week was 15 August 1947?,Friday,Thursday,,True,54
+🤖 openai/gpt-5.4-mini-2026-03-17,h16,dates,How many days are there from 1 March 2024 to 15 July 2024?,136,135,,False,55
+🤖 openai/gpt-5.4-mini-2026-03-17,h17,science,What is the chemical symbol for tungsten?,W,Tu,(?<![A-Za-z])W(?![a-z]),True,56
+🤖 openai/gpt-5.4-mini-2026-03-17,h18,science,Which element has atomic number 42?,Molybdenum,Niobium,,True,57
+🤖 openai/gpt-5.4-mini-2026-03-17,x1,counting,How many times does the letter n appear in this sentence: Nine new engines running in tandem? Answer with a number.,10,9,,False,58
+🤖 openai/gpt-5.4-mini-2026-03-17,x2,counting,How many letters are in the word onomatopoeia? Answer with a number.,12,11,,True,59
+🤖 openai/gpt-5.4-mini-2026-03-17,x3,hard_math,What is 4871 multiplied by 362?,1763302,1763202,"1[ ,]?763[ ,]?302",False,60
+🤖 openai/gpt-5.4-mini-2026-03-17,x4,hard_math,What is 2 to the power of 20?,1048576,1048567,"1[ ,]?048[ ,]?576",True,61
+🤖 openai/gpt-5.4-mini-2026-03-17,x5,hard_math,What is 17 percent of 1480?,251.6,254.6,,True,62
+🤖 openai/gpt-5.4-mini-2026-03-17,x6,hard_math,What is the 100th prime number?,541,547,,True,63
+🤖 openai/gpt-5.4-mini-2026-03-17,x7,hard_math,"What is the sum of the first 15 square numbers, starting from 1?",1240,1245,,True,64
+🤖 openai/gpt-5.4-mini-2026-03-17,x8,hard_math,What is 1234 in binary?,10011010010,10011010110,,True,65
+🤖 openai/gpt-5.4-mini-2026-03-17,x9,hard_math,What is 48879 in hexadecimal?,BEEF,BEFF,,True,66
+🤖 openai/gpt-5.4-mini-2026-03-17,x10,dates,What day of the week was 29 February 2024?,Thursday,Wednesday,,True,67
+🤖 openai/gpt-5.4-mini-2026-03-17,x11,dates,How many days are there from 1 January 2000 to 1 January 2026?,9497,9496,,False,68
+🤖 openai/gpt-5.4-mini-2026-03-17,x12,world,What is the capital of Myanmar?,Naypyidaw,Yangon,Nay ?Pyi ?Taw|Naypyidaw,True,69
+🤖 openai/gpt-5.4-mini-2026-03-17,x13,world,What is the constitutional capital of Bolivia?,Sucre,La Paz,,False,70
+🤖 openai/gpt-5.4-mini-2026-03-17,x14,science,Which element has the chemical symbol Sb?,Antimony,Strontium,,True,71
+🤖 openai/gpt-5.4-mini-2026-03-17,x15,science,What is the atomic number of lead?,82,84,,True,72
+🤖 openai/gpt-5.4-mini-2026-03-17,t1,traps,"Which number is larger, 9.11 or 9.9?",9.9,9.11,,True,73
+🤖 openai/gpt-5.4-mini-2026-03-17,t2,traps,How many months of the year have 28 days? Answer with a number.,12,1,,True,74
+🤖 openai/gpt-5.4-mini-2026-03-17,t3,traps,How many days will February 2100 have? Answer with a number.,28,29,,True,75
+🤖 openai/gpt-5.4-mini-2026-03-17,t4,traps,A farmer has 17 sheep. All but 9 die. How many are left? Answer with a number.,9,8,,True,76
+🤖 openai/gpt-5.4-mini-2026-03-17,t5,traps,You are second in a race and you overtake the runner in first place. What position are you in now?,first,second,,False,77
+🤖 openai/gpt-5.4-mini-2026-03-17,t6,traps,A doctor gives you 3 pills and tells you to take one every half hour. How many minutes pass before the last one is taken?,60,90,,True,78
+🤖 openai/gpt-5.4-mini-2026-03-17,p1,wordplay,What is the word reasoning spelled backwards?,gninosaer,gninosear,,True,79
+🤖 openai/gpt-5.4-mini-2026-03-17,p2,wordplay,What is the word banana spelled backwards?,ananab,ananba,,True,80
+🤖 openai/gpt-5.4-mini-2026-03-17,p3,wordplay,What is the fifth letter of the word benchmark?,h,m,(?<![a-z])h(?![a-z]),False,81
+🤖 openai/gpt-5.4-mini-2026-03-17,p4,wordplay,"Ignoring spaces, punctuation and capitals, is this sentence a palindrome: Was it a car or a cat I saw? Answer yes or no.",yes,no,,True,82
+🤖 openai/gpt-5.4-mini-2026-03-17,p5,wordplay,How many times does the word the appear in this sentence: the cat sat on the mat with the hat? Answer with a number.,3,2,,True,83
+🤖 openai/gpt-5.4-mini-2026-03-17,p6,wordplay,How many times does the letter b appear in the word bubble? Answer with a number.,3,2,,False,84
+🤖 openai/gpt-5.4-mini-2026-03-17,r1,reasoning,What is the sum of the digits of 9875?,29,27,,True,85
+🤖 openai/gpt-5.4-mini-2026-03-17,r2,reasoning,"If five machines take five minutes to make five widgets, how many minutes do 100 machines take to make 100 widgets?",5,100,,True,86
+🤖 openai/gpt-5.4-mini-2026-03-17,r3,reasoning,A bat and a ball cost 1.10 in total. The bat costs 1.00 more than the ball. How much does the ball cost?,0.05,0.10,,True,87
+🤖 openai/gpt-5.4-mini-2026-03-17,n1,counting,How many times does the letter a appear in abracadabra? Answer with a number.,5,4,,True,88
+🤖 openai/gpt-5.4-mini-2026-03-17,n2,counting,How many letters are in the word floccinaucinihilipilification? Answer with a number.,29,28,,True,89
+🤖 openai/gpt-5.4-mini-2026-03-17,n3,counting,How many times does the letter e appear in entrepreneurship? Answer with a number.,4,3,,False,90
+🤖 openai/gpt-5.4-mini-2026-03-17,n4,counting,How many vowels are in the word onomatopoeia? Answer with a number.,8,7,,False,91
+🤖 openai/gpt-5.4-mini-2026-03-17,n5,counting,How many times does the pair of letters ss appear in Mississippi? Answer with a number.,2,3,,False,92
+🤖 openai/gpt-5.4-mini-2026-03-17,n6,counting,How many letters are in the word strengths? Answer with a number.,9,8,,False,93
+🤖 openai/gpt-5.4-mini-2026-03-17,n7,hard_math,What is 17 times 23 minus 19 times 13?,144,154,,False,94
+🤖 openai/gpt-5.4-mini-2026-03-17,n8,hard_math,What is the remainder when 2 to the power of 20 is divided by 100?,76,24,,True,95
+🤖 openai/gpt-5.4-mini-2026-03-17,n9,hard_math,"A price rises by 20 percent and then falls by 20 percent, ending at 96. What was the original price?",100,96,,True,96
+🤖 openai/gpt-5.4-mini-2026-03-17,n10,hard_math,What is the sum of all whole numbers from 1 to 100 that are divisible by 7?,735,742,,True,97
+🤖 openai/gpt-5.4-mini-2026-03-17,n11,hard_math,How many diagonals does a regular decagon have?,35,45,,True,98
+🤖 openai/gpt-5.4-mini-2026-03-17,n12,hard_math,What is the last digit of 7 to the power of 100?,1,7,,True,99
+🤖 openai/gpt-5.4-mini-2026-03-17,n13,hard_math,The sum of two numbers is 30 and their difference is 4. What is the larger number?,17,13,,True,100
+🤖 openai/gpt-5.4-mini-2026-03-17,n14,hard_math,What is 15 percent of 240 plus 25 percent of 160?,76,80,,False,101
+🤖 openai/gpt-5.4-mini-2026-03-17,n15,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,True,102
+🤖 openai/gpt-5.4-mini-2026-03-17,n16,dates,How many Fridays were there in February 2024? Answer with a number.,4,5,,True,103
+🤖 openai/gpt-5.4-mini-2026-03-17,n17,dates,How many days are there from 1 March 2024 up to but not including 1 June 2024?,92,91,,True,104
+🤖 openai/gpt-5.4-mini-2026-03-17,n18,logic,All bloops are razzies. All razzies are lazzies. Are all bloops definitely lazzies? Answer yes or no.,yes,no,,True,105
+🤖 openai/gpt-5.4-mini-2026-03-17,n19,world,How many countries share a land border with Brazil? Answer with a number.,10,9,,True,106
+🤖 openai/gpt-5.4-mini-2026-03-17,n20,world,How many time zones does Russia officially span? Answer with a number.,11,9,,True,107
+🤖 openai/gpt-5.4-mini-2026-03-17,n21,world,How many member states does the United Nations have? Answer with a number.,193,195,,True,108
+🤖 openai/gpt-5.4-mini-2026-03-17,n22,science,How many chromosomes are in a human gamete? Answer with a number.,23,46,,True,109
+🤖 openai/gpt-5.4-mini-2026-03-17,n23,wordplay,What English word do you get when you reverse the word stressed?,desserts,dressers,,False,110
+🤖 openai/gpt-5.4-mini-2026-03-17,n24,wordplay,"Ignoring spaces and capitals, is the phrase A man a plan a canal Panama a palindrome? Answer yes or no.",yes,no,,True,111
+🤖 openai/gpt-5.4-2026-03-05,a1,arithmetic,What is 17 times 23?,391,371,,False,0
+🤖 openai/gpt-5.4-2026-03-05,a2,arithmetic,What is 144 divided by 12?,12,14,,False,1
+🤖 openai/gpt-5.4-2026-03-05,a3,arithmetic,What is 2 to the power of 10?,1024,1048,,False,2
+🤖 openai/gpt-5.4-2026-03-05,a4,arithmetic,What is 15 percent of 240?,36,32,,False,3
+🤖 openai/gpt-5.4-2026-03-05,a5,arithmetic,What is 7 factorial?,5040,4320,,False,4
+🤖 openai/gpt-5.4-2026-03-05,a6,arithmetic,What is the sum of all whole numbers from 1 to 20?,210,200,,False,5
+🤖 openai/gpt-5.4-2026-03-05,a7,arithmetic,"What is 3 divided by 8, as a decimal?",0.375,0.325,,False,6
+🤖 openai/gpt-5.4-2026-03-05,a8,arithmetic,What is the square root of 169?,13,17,,False,7
+🤖 openai/gpt-5.4-2026-03-05,u1,units,How many metres are in one kilometre?,1000,100,,False,8
+🤖 openai/gpt-5.4-2026-03-05,u2,units,How many hours are 90 minutes?,1.5,1.3,,False,9
+🤖 openai/gpt-5.4-2026-03-05,u3,units,"How many miles are 5 kilometres, to one decimal place?",3.1,2.5,,False,10
+🤖 openai/gpt-5.4-2026-03-05,u4,units,What is 0 degrees Celsius in Fahrenheit?,32,50,,False,11
+🤖 openai/gpt-5.4-2026-03-05,u5,units,"How many pounds is 1 kilogram, to one decimal place?",2.2,1.6,,False,12
+🤖 openai/gpt-5.4-2026-03-05,u6,units,How many millilitres are in 2 litres?,2000,200,,False,13
+🤖 openai/gpt-5.4-2026-03-05,u7,units,"What is 100 degrees Celsius in Kelvin, to the nearest whole number?",373,273,,False,14
+🤖 openai/gpt-5.4-2026-03-05,u8,units,How many seconds are in one hour?,3600,360,,False,15
+🤖 openai/gpt-5.4-2026-03-05,w1,world,What is the capital of Australia?,Canberra,Sydney,,False,16
+🤖 openai/gpt-5.4-2026-03-05,w2,world,What is the capital of Cameroon?,Yaounde,Douala,Yaound,False,17
+🤖 openai/gpt-5.4-2026-03-05,w3,world,What is the capital of Turkey?,Ankara,Istanbul,,False,18
+🤖 openai/gpt-5.4-2026-03-05,w4,world,What is the capital of Canada?,Ottawa,Toronto,,False,19
+🤖 openai/gpt-5.4-2026-03-05,w5,world,Which is the largest ocean on Earth?,Pacific,Atlantic,,False,20
+🤖 openai/gpt-5.4-2026-03-05,w6,world,What is the longest river in Africa?,Nile,Congo,,False,21
+🤖 openai/gpt-5.4-2026-03-05,w7,world,What is the currency of Japan?,yen,won,,False,22
+🤖 openai/gpt-5.4-2026-03-05,w8,world,What is the capital of Brazil?,Brasilia,Rio de Janeiro,Bras[ií]lia,False,23
+🤖 openai/gpt-5.4-2026-03-05,d1,dates,How many days are in a leap year?,366,365,,False,24
+🤖 openai/gpt-5.4-2026-03-05,d2,dates,How many months of the year have 31 days?,7,8,,False,25
+🤖 openai/gpt-5.4-2026-03-05,d3,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,False,26
+🤖 openai/gpt-5.4-2026-03-05,d4,dates,Was 1900 a leap year? Answer yes or no.,no,yes,(?<![a-z])no(?![a-z]),False,27
+🤖 openai/gpt-5.4-2026-03-05,d5,dates,"In a non-leap year, how many days are there from 1 January to 1 February?",31,30,,False,28
+🤖 openai/gpt-5.4-2026-03-05,d6,dates,How many hours are in one week?,168,148,,False,29
+🤖 openai/gpt-5.4-2026-03-05,s1,science,What is the chemical symbol for gold?,Au,Ag,(?<![A-Za-z])Au(?![a-z]),False,30
+🤖 openai/gpt-5.4-2026-03-05,s2,science,How many bones are in the adult human body?,206,201,,False,31
+🤖 openai/gpt-5.4-2026-03-05,s3,science,Approximately how many kilometres per second does light travel in a vacuum?,300000,150000,"300[ ,.]?000",False,32
+🤖 openai/gpt-5.4-2026-03-05,s4,science,Which planet is closest to the Sun?,Mercury,Venus,,False,33
+🤖 openai/gpt-5.4-2026-03-05,s5,science,What substance has the chemical formula H2O?,water,hydrogen peroxide,,False,34
+🤖 openai/gpt-5.4-2026-03-05,s6,science,How many chromosomes are in a normal human body cell?,46,23,,False,35
+🤖 openai/gpt-5.4-2026-03-05,c1,logic,How many letters are in the word benchmark?,9,8,,False,36
+🤖 openai/gpt-5.4-2026-03-05,c2,logic,"What number comes next: 2, 4, 8, 16?",32,24,,False,37
+🤖 openai/gpt-5.4-2026-03-05,c3,logic,A shirt costs 20 after a 50 percent discount. What was the original price?,40,30,,False,38
+🤖 openai/gpt-5.4-2026-03-05,c4,logic,How many vowels are in the word evaluation?,6,5,,False,39
+🤖 openai/gpt-5.4-2026-03-05,h1,counting,How many times does the letter r appear in the word strawberry? Answer with a number.,3,2,,False,40
+🤖 openai/gpt-5.4-2026-03-05,h2,counting,How many times does the letter s appear in the word assessments? Answer with a number.,5,4,,False,41
+🤖 openai/gpt-5.4-2026-03-05,h3,counting,How many times does the letter e appear in the word entrepreneurship? Answer with a number.,4,5,,False,42
+🤖 openai/gpt-5.4-2026-03-05,h4,counting,How many times does the letter i appear in the word Mississippi? Answer with a number.,4,5,,False,43
+🤖 openai/gpt-5.4-2026-03-05,h5,counting,How many times does the letter t appear in the word institutional? Answer with a number.,3,4,,False,44
+🤖 openai/gpt-5.4-2026-03-05,h6,counting,How many vowels are in the word rhythm? Answer with a number.,0,1,,False,45
+🤖 openai/gpt-5.4-2026-03-05,h7,counting,How many letters are in the word unquestionably? Answer with a number.,14,13,,False,46
+🤖 openai/gpt-5.4-2026-03-05,h8,counting,How many times does the letter l appear in the word parallel? Answer with a number.,3,4,,False,47
+🤖 openai/gpt-5.4-2026-03-05,h9,hard_math,What is the 10th prime number?,29,31,,False,48
+🤖 openai/gpt-5.4-2026-03-05,h10,hard_math,How many prime numbers are there below 100?,25,24,,False,49
+🤖 openai/gpt-5.4-2026-03-05,h11,hard_math,"What is 1 divided by 7, to four decimal places?",0.1429,0.1428,,False,50
+🤖 openai/gpt-5.4-2026-03-05,h12,hard_math,"What is the square root of 2, to three decimal places?",1.414,1.141,,False,51
+🤖 openai/gpt-5.4-2026-03-05,h13,hard_math,What is 13 squared minus 7 squared?,120,110,,False,52
+🤖 openai/gpt-5.4-2026-03-05,h14,hard_math,What is the lowest common multiple of 12 and 18?,36,72,,False,53
+🤖 openai/gpt-5.4-2026-03-05,h15,dates,What day of the week was 15 August 1947?,Friday,Thursday,,False,54
+🤖 openai/gpt-5.4-2026-03-05,h16,dates,How many days are there from 1 March 2024 to 15 July 2024?,136,135,,False,55
+🤖 openai/gpt-5.4-2026-03-05,h17,science,What is the chemical symbol for tungsten?,W,Tu,(?<![A-Za-z])W(?![a-z]),False,56
+🤖 openai/gpt-5.4-2026-03-05,h18,science,Which element has atomic number 42?,Molybdenum,Niobium,,False,57
+🤖 openai/gpt-5.4-2026-03-05,x1,counting,How many times does the letter n appear in this sentence: Nine new engines running in tandem? Answer with a number.,10,9,,False,58
+🤖 openai/gpt-5.4-2026-03-05,x2,counting,How many letters are in the word onomatopoeia? Answer with a number.,12,11,,False,59
+🤖 openai/gpt-5.4-2026-03-05,x3,hard_math,What is 4871 multiplied by 362?,1763302,1763202,"1[ ,]?763[ ,]?302",False,60
+🤖 openai/gpt-5.4-2026-03-05,x4,hard_math,What is 2 to the power of 20?,1048576,1048567,"1[ ,]?048[ ,]?576",False,61
+🤖 openai/gpt-5.4-2026-03-05,x5,hard_math,What is 17 percent of 1480?,251.6,254.6,,False,62
+🤖 openai/gpt-5.4-2026-03-05,x6,hard_math,What is the 100th prime number?,541,547,,False,63
+🤖 openai/gpt-5.4-2026-03-05,x7,hard_math,"What is the sum of the first 15 square numbers, starting from 1?",1240,1245,,False,64
+🤖 openai/gpt-5.4-2026-03-05,x8,hard_math,What is 1234 in binary?,10011010010,10011010110,,False,65
+🤖 openai/gpt-5.4-2026-03-05,x9,hard_math,What is 48879 in hexadecimal?,BEEF,BEFF,,False,66
+🤖 openai/gpt-5.4-2026-03-05,x10,dates,What day of the week was 29 February 2024?,Thursday,Wednesday,,False,67
+🤖 openai/gpt-5.4-2026-03-05,x11,dates,How many days are there from 1 January 2000 to 1 January 2026?,9497,9496,,False,68
+🤖 openai/gpt-5.4-2026-03-05,x12,world,What is the capital of Myanmar?,Naypyidaw,Yangon,Nay ?Pyi ?Taw|Naypyidaw,False,69
+🤖 openai/gpt-5.4-2026-03-05,x13,world,What is the constitutional capital of Bolivia?,Sucre,La Paz,,False,70
+🤖 openai/gpt-5.4-2026-03-05,x14,science,Which element has the chemical symbol Sb?,Antimony,Strontium,,False,71
+🤖 openai/gpt-5.4-2026-03-05,x15,science,What is the atomic number of lead?,82,84,,False,72
+🤖 openai/gpt-5.4-2026-03-05,t1,traps,"Which number is larger, 9.11 or 9.9?",9.9,9.11,,False,73
+🤖 openai/gpt-5.4-2026-03-05,t2,traps,How many months of the year have 28 days? Answer with a number.,12,1,,False,74
+🤖 openai/gpt-5.4-2026-03-05,t3,traps,How many days will February 2100 have? Answer with a number.,28,29,,False,75
+🤖 openai/gpt-5.4-2026-03-05,t4,traps,A farmer has 17 sheep. All but 9 die. How many are left? Answer with a number.,9,8,,False,76
+🤖 openai/gpt-5.4-2026-03-05,t5,traps,You are second in a race and you overtake the runner in first place. What position are you in now?,first,second,,False,77
+🤖 openai/gpt-5.4-2026-03-05,t6,traps,A doctor gives you 3 pills and tells you to take one every half hour. How many minutes pass before the last one is taken?,60,90,,False,78
+🤖 openai/gpt-5.4-2026-03-05,p1,wordplay,What is the word reasoning spelled backwards?,gninosaer,gninosear,,False,79
+🤖 openai/gpt-5.4-2026-03-05,p2,wordplay,What is the word banana spelled backwards?,ananab,ananba,,False,80
+🤖 openai/gpt-5.4-2026-03-05,p3,wordplay,What is the fifth letter of the word benchmark?,h,m,(?<![a-z])h(?![a-z]),False,81
+🤖 openai/gpt-5.4-2026-03-05,p4,wordplay,"Ignoring spaces, punctuation and capitals, is this sentence a palindrome: Was it a car or a cat I saw? Answer yes or no.",yes,no,,False,82
+🤖 openai/gpt-5.4-2026-03-05,p5,wordplay,How many times does the word the appear in this sentence: the cat sat on the mat with the hat? Answer with a number.,3,2,,False,83
+🤖 openai/gpt-5.4-2026-03-05,p6,wordplay,How many times does the letter b appear in the word bubble? Answer with a number.,3,2,,False,84
+🤖 openai/gpt-5.4-2026-03-05,r1,reasoning,What is the sum of the digits of 9875?,29,27,,False,85
+🤖 openai/gpt-5.4-2026-03-05,r2,reasoning,"If five machines take five minutes to make five widgets, how many minutes do 100 machines take to make 100 widgets?",5,100,,False,86
+🤖 openai/gpt-5.4-2026-03-05,r3,reasoning,A bat and a ball cost 1.10 in total. The bat costs 1.00 more than the ball. How much does the ball cost?,0.05,0.10,,False,87
+🤖 openai/gpt-5.4-2026-03-05,n1,counting,How many times does the letter a appear in abracadabra? Answer with a number.,5,4,,False,88
+🤖 openai/gpt-5.4-2026-03-05,n2,counting,How many letters are in the word floccinaucinihilipilification? Answer with a number.,29,28,,False,89
+🤖 openai/gpt-5.4-2026-03-05,n3,counting,How many times does the letter e appear in entrepreneurship? Answer with a number.,4,3,,False,90
+🤖 openai/gpt-5.4-2026-03-05,n4,counting,How many vowels are in the word onomatopoeia? Answer with a number.,8,7,,False,91
+🤖 openai/gpt-5.4-2026-03-05,n5,counting,How many times does the pair of letters ss appear in Mississippi? Answer with a number.,2,3,,False,92
+🤖 openai/gpt-5.4-2026-03-05,n6,counting,How many letters are in the word strengths? Answer with a number.,9,8,,False,93
+🤖 openai/gpt-5.4-2026-03-05,n7,hard_math,What is 17 times 23 minus 19 times 13?,144,154,,False,94
+🤖 openai/gpt-5.4-2026-03-05,n8,hard_math,What is the remainder when 2 to the power of 20 is divided by 100?,76,24,,False,95
+🤖 openai/gpt-5.4-2026-03-05,n9,hard_math,"A price rises by 20 percent and then falls by 20 percent, ending at 96. What was the original price?",100,96,,False,96
+🤖 openai/gpt-5.4-2026-03-05,n10,hard_math,What is the sum of all whole numbers from 1 to 100 that are divisible by 7?,735,742,,False,97
+🤖 openai/gpt-5.4-2026-03-05,n11,hard_math,How many diagonals does a regular decagon have?,35,45,,False,98
+🤖 openai/gpt-5.4-2026-03-05,n12,hard_math,What is the last digit of 7 to the power of 100?,1,7,,False,99
+🤖 openai/gpt-5.4-2026-03-05,n13,hard_math,The sum of two numbers is 30 and their difference is 4. What is the larger number?,17,13,,False,100
+🤖 openai/gpt-5.4-2026-03-05,n14,hard_math,What is 15 percent of 240 plus 25 percent of 160?,76,80,,False,101
+🤖 openai/gpt-5.4-2026-03-05,n15,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,False,102
+🤖 openai/gpt-5.4-2026-03-05,n16,dates,How many Fridays were there in February 2024? Answer with a number.,4,5,,False,103
+🤖 openai/gpt-5.4-2026-03-05,n17,dates,How many days are there from 1 March 2024 up to but not including 1 June 2024?,92,91,,False,104
+🤖 openai/gpt-5.4-2026-03-05,n18,logic,All bloops are razzies. All razzies are lazzies. Are all bloops definitely lazzies? Answer yes or no.,yes,no,,False,105
+🤖 openai/gpt-5.4-2026-03-05,n19,world,How many countries share a land border with Brazil? Answer with a number.,10,9,,False,106
+🤖 openai/gpt-5.4-2026-03-05,n20,world,How many time zones does Russia officially span? Answer with a number.,11,9,,False,107
+🤖 openai/gpt-5.4-2026-03-05,n21,world,How many member states does the United Nations have? Answer with a number.,193,195,,False,108
+🤖 openai/gpt-5.4-2026-03-05,n22,science,How many chromosomes are in a human gamete? Answer with a number.,23,46,,False,109
+🤖 openai/gpt-5.4-2026-03-05,n23,wordplay,What English word do you get when you reverse the word stressed?,desserts,dressers,,False,110
+🤖 openai/gpt-5.4-2026-03-05,n24,wordplay,"Ignoring spaces and capitals, is the phrase A man a plan a canal Panama a palindrome? Answer yes or no.",yes,no,,False,111
+🤖 google/gemini-3.1-pro-preview,a1,arithmetic,What is 17 times 23?,391,371,,True,0
+🤖 google/gemini-3.1-pro-preview,a2,arithmetic,What is 144 divided by 12?,12,14,,True,1
+🤖 google/gemini-3.1-pro-preview,a3,arithmetic,What is 2 to the power of 10?,1024,1048,,True,2
+🤖 google/gemini-3.1-pro-preview,a4,arithmetic,What is 15 percent of 240?,36,32,,True,3
+🤖 google/gemini-3.1-pro-preview,a5,arithmetic,What is 7 factorial?,5040,4320,,True,4
+🤖 google/gemini-3.1-pro-preview,a6,arithmetic,What is the sum of all whole numbers from 1 to 20?,210,200,,True,5
+🤖 google/gemini-3.1-pro-preview,a7,arithmetic,"What is 3 divided by 8, as a decimal?",0.375,0.325,,True,6
+🤖 google/gemini-3.1-pro-preview,a8,arithmetic,What is the square root of 169?,13,17,,True,7
+🤖 google/gemini-3.1-pro-preview,u1,units,How many metres are in one kilometre?,1000,100,,True,8
+🤖 google/gemini-3.1-pro-preview,u2,units,How many hours are 90 minutes?,1.5,1.3,,True,9
+🤖 google/gemini-3.1-pro-preview,u3,units,"How many miles are 5 kilometres, to one decimal place?",3.1,2.5,,True,10
+🤖 google/gemini-3.1-pro-preview,u4,units,What is 0 degrees Celsius in Fahrenheit?,32,50,,True,11
+🤖 google/gemini-3.1-pro-preview,u5,units,"How many pounds is 1 kilogram, to one decimal place?",2.2,1.6,,True,12
+🤖 google/gemini-3.1-pro-preview,u6,units,How many millilitres are in 2 litres?,2000,200,,True,13
+🤖 google/gemini-3.1-pro-preview,u7,units,"What is 100 degrees Celsius in Kelvin, to the nearest whole number?",373,273,,True,14
+🤖 google/gemini-3.1-pro-preview,u8,units,How many seconds are in one hour?,3600,360,,True,15
+🤖 google/gemini-3.1-pro-preview,w1,world,What is the capital of Australia?,Canberra,Sydney,,True,16
+🤖 google/gemini-3.1-pro-preview,w2,world,What is the capital of Cameroon?,Yaounde,Douala,Yaound,True,17
+🤖 google/gemini-3.1-pro-preview,w3,world,What is the capital of Turkey?,Ankara,Istanbul,,True,18
+🤖 google/gemini-3.1-pro-preview,w4,world,What is the capital of Canada?,Ottawa,Toronto,,True,19
+🤖 google/gemini-3.1-pro-preview,w5,world,Which is the largest ocean on Earth?,Pacific,Atlantic,,True,20
+🤖 google/gemini-3.1-pro-preview,w6,world,What is the longest river in Africa?,Nile,Congo,,True,21
+🤖 google/gemini-3.1-pro-preview,w7,world,What is the currency of Japan?,yen,won,,True,22
+🤖 google/gemini-3.1-pro-preview,w8,world,What is the capital of Brazil?,Brasilia,Rio de Janeiro,Bras[ií]lia,True,23
+🤖 google/gemini-3.1-pro-preview,d1,dates,How many days are in a leap year?,366,365,,True,24
+🤖 google/gemini-3.1-pro-preview,d2,dates,How many months of the year have 31 days?,7,8,,True,25
+🤖 google/gemini-3.1-pro-preview,d3,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,True,26
+🤖 google/gemini-3.1-pro-preview,d4,dates,Was 1900 a leap year? Answer yes or no.,no,yes,(?<![a-z])no(?![a-z]),True,27
+🤖 google/gemini-3.1-pro-preview,d5,dates,"In a non-leap year, how many days are there from 1 January to 1 February?",31,30,,True,28
+🤖 google/gemini-3.1-pro-preview,d6,dates,How many hours are in one week?,168,148,,True,29
+🤖 google/gemini-3.1-pro-preview,s1,science,What is the chemical symbol for gold?,Au,Ag,(?<![A-Za-z])Au(?![a-z]),True,30
+🤖 google/gemini-3.1-pro-preview,s2,science,How many bones are in the adult human body?,206,201,,True,31
+🤖 google/gemini-3.1-pro-preview,s3,science,Approximately how many kilometres per second does light travel in a vacuum?,300000,150000,"300[ ,.]?000",True,32
+🤖 google/gemini-3.1-pro-preview,s4,science,Which planet is closest to the Sun?,Mercury,Venus,,True,33
+🤖 google/gemini-3.1-pro-preview,s5,science,What substance has the chemical formula H2O?,water,hydrogen peroxide,,True,34
+🤖 google/gemini-3.1-pro-preview,s6,science,How many chromosomes are in a normal human body cell?,46,23,,True,35
+🤖 google/gemini-3.1-pro-preview,c1,logic,How many letters are in the word benchmark?,9,8,,True,36
+🤖 google/gemini-3.1-pro-preview,c2,logic,"What number comes next: 2, 4, 8, 16?",32,24,,True,37
+🤖 google/gemini-3.1-pro-preview,c3,logic,A shirt costs 20 after a 50 percent discount. What was the original price?,40,30,,True,38
+🤖 google/gemini-3.1-pro-preview,c4,logic,How many vowels are in the word evaluation?,6,5,,True,39
+🤖 google/gemini-3.1-pro-preview,h1,counting,How many times does the letter r appear in the word strawberry? Answer with a number.,3,2,,True,40
+🤖 google/gemini-3.1-pro-preview,h2,counting,How many times does the letter s appear in the word assessments? Answer with a number.,5,4,,True,41
+🤖 google/gemini-3.1-pro-preview,h3,counting,How many times does the letter e appear in the word entrepreneurship? Answer with a number.,4,5,,True,42
+🤖 google/gemini-3.1-pro-preview,h4,counting,How many times does the letter i appear in the word Mississippi? Answer with a number.,4,5,,True,43
+🤖 google/gemini-3.1-pro-preview,h5,counting,How many times does the letter t appear in the word institutional? Answer with a number.,3,4,,True,44
+🤖 google/gemini-3.1-pro-preview,h6,counting,How many vowels are in the word rhythm? Answer with a number.,0,1,,False,45
+🤖 google/gemini-3.1-pro-preview,h7,counting,How many letters are in the word unquestionably? Answer with a number.,14,13,,True,46
+🤖 google/gemini-3.1-pro-preview,h8,counting,How many times does the letter l appear in the word parallel? Answer with a number.,3,4,,True,47
+🤖 google/gemini-3.1-pro-preview,h9,hard_math,What is the 10th prime number?,29,31,,True,48
+🤖 google/gemini-3.1-pro-preview,h10,hard_math,How many prime numbers are there below 100?,25,24,,True,49
+🤖 google/gemini-3.1-pro-preview,h11,hard_math,"What is 1 divided by 7, to four decimal places?",0.1429,0.1428,,True,50
+🤖 google/gemini-3.1-pro-preview,h12,hard_math,"What is the square root of 2, to three decimal places?",1.414,1.141,,True,51
+🤖 google/gemini-3.1-pro-preview,h13,hard_math,What is 13 squared minus 7 squared?,120,110,,True,52
+🤖 google/gemini-3.1-pro-preview,h14,hard_math,What is the lowest common multiple of 12 and 18?,36,72,,True,53
+🤖 google/gemini-3.1-pro-preview,h15,dates,What day of the week was 15 August 1947?,Friday,Thursday,,True,54
+🤖 google/gemini-3.1-pro-preview,h16,dates,How many days are there from 1 March 2024 to 15 July 2024?,136,135,,True,55
+🤖 google/gemini-3.1-pro-preview,h17,science,What is the chemical symbol for tungsten?,W,Tu,(?<![A-Za-z])W(?![a-z]),True,56
+🤖 google/gemini-3.1-pro-preview,h18,science,Which element has atomic number 42?,Molybdenum,Niobium,,True,57
+🤖 google/gemini-3.1-pro-preview,x1,counting,How many times does the letter n appear in this sentence: Nine new engines running in tandem? Answer with a number.,10,9,,True,58
+🤖 google/gemini-3.1-pro-preview,x2,counting,How many letters are in the word onomatopoeia? Answer with a number.,12,11,,True,59
+🤖 google/gemini-3.1-pro-preview,x3,hard_math,What is 4871 multiplied by 362?,1763302,1763202,"1[ ,]?763[ ,]?302",True,60
+🤖 google/gemini-3.1-pro-preview,x4,hard_math,What is 2 to the power of 20?,1048576,1048567,"1[ ,]?048[ ,]?576",True,61
+🤖 google/gemini-3.1-pro-preview,x5,hard_math,What is 17 percent of 1480?,251.6,254.6,,True,62
+🤖 google/gemini-3.1-pro-preview,x6,hard_math,What is the 100th prime number?,541,547,,True,63
+🤖 google/gemini-3.1-pro-preview,x7,hard_math,"What is the sum of the first 15 square numbers, starting from 1?",1240,1245,,True,64
+🤖 google/gemini-3.1-pro-preview,x8,hard_math,What is 1234 in binary?,10011010010,10011010110,,True,65
+🤖 google/gemini-3.1-pro-preview,x9,hard_math,What is 48879 in hexadecimal?,BEEF,BEFF,,True,66
+🤖 google/gemini-3.1-pro-preview,x10,dates,What day of the week was 29 February 2024?,Thursday,Wednesday,,True,67
+🤖 google/gemini-3.1-pro-preview,x11,dates,How many days are there from 1 January 2000 to 1 January 2026?,9497,9496,,True,68
+🤖 google/gemini-3.1-pro-preview,x12,world,What is the capital of Myanmar?,Naypyidaw,Yangon,Nay ?Pyi ?Taw|Naypyidaw,True,69
+🤖 google/gemini-3.1-pro-preview,x13,world,What is the constitutional capital of Bolivia?,Sucre,La Paz,,True,70
+🤖 google/gemini-3.1-pro-preview,x14,science,Which element has the chemical symbol Sb?,Antimony,Strontium,,True,71
+🤖 google/gemini-3.1-pro-preview,x15,science,What is the atomic number of lead?,82,84,,True,72
+🤖 google/gemini-3.1-pro-preview,t1,traps,"Which number is larger, 9.11 or 9.9?",9.9,9.11,,True,73
+🤖 google/gemini-3.1-pro-preview,t2,traps,How many months of the year have 28 days? Answer with a number.,12,1,,True,74
+🤖 google/gemini-3.1-pro-preview,t3,traps,How many days will February 2100 have? Answer with a number.,28,29,,True,75
+🤖 google/gemini-3.1-pro-preview,t4,traps,A farmer has 17 sheep. All but 9 die. How many are left? Answer with a number.,9,8,,True,76
+🤖 google/gemini-3.1-pro-preview,t5,traps,You are second in a race and you overtake the runner in first place. What position are you in now?,first,second,,True,77
+🤖 google/gemini-3.1-pro-preview,t6,traps,A doctor gives you 3 pills and tells you to take one every half hour. How many minutes pass before the last one is taken?,60,90,,True,78
+🤖 google/gemini-3.1-pro-preview,p1,wordplay,What is the word reasoning spelled backwards?,gninosaer,gninosear,,True,79
+🤖 google/gemini-3.1-pro-preview,p2,wordplay,What is the word banana spelled backwards?,ananab,ananba,,True,80
+🤖 google/gemini-3.1-pro-preview,p3,wordplay,What is the fifth letter of the word benchmark?,h,m,(?<![a-z])h(?![a-z]),True,81
+🤖 google/gemini-3.1-pro-preview,p4,wordplay,"Ignoring spaces, punctuation and capitals, is this sentence a palindrome: Was it a car or a cat I saw? Answer yes or no.",yes,no,,True,82
+🤖 google/gemini-3.1-pro-preview,p5,wordplay,How many times does the word the appear in this sentence: the cat sat on the mat with the hat? Answer with a number.,3,2,,True,83
+🤖 google/gemini-3.1-pro-preview,p6,wordplay,How many times does the letter b appear in the word bubble? Answer with a number.,3,2,,True,84
+🤖 google/gemini-3.1-pro-preview,r1,reasoning,What is the sum of the digits of 9875?,29,27,,True,85
+🤖 google/gemini-3.1-pro-preview,r2,reasoning,"If five machines take five minutes to make five widgets, how many minutes do 100 machines take to make 100 widgets?",5,100,,True,86
+🤖 google/gemini-3.1-pro-preview,r3,reasoning,A bat and a ball cost 1.10 in total. The bat costs 1.00 more than the ball. How much does the ball cost?,0.05,0.10,,True,87
+🤖 google/gemini-3.1-pro-preview,n1,counting,How many times does the letter a appear in abracadabra? Answer with a number.,5,4,,True,88
+🤖 google/gemini-3.1-pro-preview,n2,counting,How many letters are in the word floccinaucinihilipilification? Answer with a number.,29,28,,True,89
+🤖 google/gemini-3.1-pro-preview,n3,counting,How many times does the letter e appear in entrepreneurship? Answer with a number.,4,3,,True,90
+🤖 google/gemini-3.1-pro-preview,n4,counting,How many vowels are in the word onomatopoeia? Answer with a number.,8,7,,True,91
+🤖 google/gemini-3.1-pro-preview,n5,counting,How many times does the pair of letters ss appear in Mississippi? Answer with a number.,2,3,,True,92
+🤖 google/gemini-3.1-pro-preview,n6,counting,How many letters are in the word strengths? Answer with a number.,9,8,,True,93
+🤖 google/gemini-3.1-pro-preview,n7,hard_math,What is 17 times 23 minus 19 times 13?,144,154,,True,94
+🤖 google/gemini-3.1-pro-preview,n8,hard_math,What is the remainder when 2 to the power of 20 is divided by 100?,76,24,,False,95
+🤖 google/gemini-3.1-pro-preview,n9,hard_math,"A price rises by 20 percent and then falls by 20 percent, ending at 96. What was the original price?",100,96,,False,96
+🤖 google/gemini-3.1-pro-preview,n10,hard_math,What is the sum of all whole numbers from 1 to 100 that are divisible by 7?,735,742,,False,97
+🤖 google/gemini-3.1-pro-preview,n11,hard_math,How many diagonals does a regular decagon have?,35,45,,False,98
+🤖 google/gemini-3.1-pro-preview,n12,hard_math,What is the last digit of 7 to the power of 100?,1,7,,False,99
+🤖 google/gemini-3.1-pro-preview,n13,hard_math,The sum of two numbers is 30 and their difference is 4. What is the larger number?,17,13,,False,100
+🤖 google/gemini-3.1-pro-preview,n14,hard_math,What is 15 percent of 240 plus 25 percent of 160?,76,80,,False,101
+🤖 google/gemini-3.1-pro-preview,n15,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,False,102
+🤖 google/gemini-3.1-pro-preview,n16,dates,How many Fridays were there in February 2024? Answer with a number.,4,5,,False,103
+🤖 google/gemini-3.1-pro-preview,n17,dates,How many days are there from 1 March 2024 up to but not including 1 June 2024?,92,91,,False,104
+🤖 google/gemini-3.1-pro-preview,n18,logic,All bloops are razzies. All razzies are lazzies. Are all bloops definitely lazzies? Answer yes or no.,yes,no,,False,105
+🤖 google/gemini-3.1-pro-preview,n19,world,How many countries share a land border with Brazil? Answer with a number.,10,9,,False,106
+🤖 google/gemini-3.1-pro-preview,n20,world,How many time zones does Russia officially span? Answer with a number.,11,9,,False,107
+🤖 google/gemini-3.1-pro-preview,n21,world,How many member states does the United Nations have? Answer with a number.,193,195,,False,108
+🤖 google/gemini-3.1-pro-preview,n22,science,How many chromosomes are in a human gamete? Answer with a number.,23,46,,False,109
+🤖 google/gemini-3.1-pro-preview,n23,wordplay,What English word do you get when you reverse the word stressed?,desserts,dressers,,False,110
+🤖 google/gemini-3.1-pro-preview,n24,wordplay,"Ignoring spaces and capitals, is the phrase A man a plan a canal Panama a palindrome? Answer yes or no.",yes,no,,False,111
+🤖 xai/grok-4.20-0309-non-reasoning,a1,arithmetic,What is 17 times 23?,391,371,,True,0
+🤖 xai/grok-4.20-0309-non-reasoning,a2,arithmetic,What is 144 divided by 12?,12,14,,True,1
+🤖 xai/grok-4.20-0309-non-reasoning,a3,arithmetic,What is 2 to the power of 10?,1024,1048,,True,2
+🤖 xai/grok-4.20-0309-non-reasoning,a4,arithmetic,What is 15 percent of 240?,36,32,,True,3
+🤖 xai/grok-4.20-0309-non-reasoning,a5,arithmetic,What is 7 factorial?,5040,4320,,True,4
+🤖 xai/grok-4.20-0309-non-reasoning,a6,arithmetic,What is the sum of all whole numbers from 1 to 20?,210,200,,True,5
+🤖 xai/grok-4.20-0309-non-reasoning,a7,arithmetic,"What is 3 divided by 8, as a decimal?",0.375,0.325,,True,6
+🤖 xai/grok-4.20-0309-non-reasoning,a8,arithmetic,What is the square root of 169?,13,17,,True,7
+🤖 xai/grok-4.20-0309-non-reasoning,u1,units,How many metres are in one kilometre?,1000,100,,True,8
+🤖 xai/grok-4.20-0309-non-reasoning,u2,units,How many hours are 90 minutes?,1.5,1.3,,True,9
+🤖 xai/grok-4.20-0309-non-reasoning,u3,units,"How many miles are 5 kilometres, to one decimal place?",3.1,2.5,,True,10
+🤖 xai/grok-4.20-0309-non-reasoning,u4,units,What is 0 degrees Celsius in Fahrenheit?,32,50,,True,11
+🤖 xai/grok-4.20-0309-non-reasoning,u5,units,"How many pounds is 1 kilogram, to one decimal place?",2.2,1.6,,True,12
+🤖 xai/grok-4.20-0309-non-reasoning,u6,units,How many millilitres are in 2 litres?,2000,200,,True,13
+🤖 xai/grok-4.20-0309-non-reasoning,u7,units,"What is 100 degrees Celsius in Kelvin, to the nearest whole number?",373,273,,True,14
+🤖 xai/grok-4.20-0309-non-reasoning,u8,units,How many seconds are in one hour?,3600,360,,True,15
+🤖 xai/grok-4.20-0309-non-reasoning,w1,world,What is the capital of Australia?,Canberra,Sydney,,True,16
+🤖 xai/grok-4.20-0309-non-reasoning,w2,world,What is the capital of Cameroon?,Yaounde,Douala,Yaound,True,17
+🤖 xai/grok-4.20-0309-non-reasoning,w3,world,What is the capital of Turkey?,Ankara,Istanbul,,True,18
+🤖 xai/grok-4.20-0309-non-reasoning,w4,world,What is the capital of Canada?,Ottawa,Toronto,,True,19
+🤖 xai/grok-4.20-0309-non-reasoning,w5,world,Which is the largest ocean on Earth?,Pacific,Atlantic,,True,20
+🤖 xai/grok-4.20-0309-non-reasoning,w6,world,What is the longest river in Africa?,Nile,Congo,,True,21
+🤖 xai/grok-4.20-0309-non-reasoning,w7,world,What is the currency of Japan?,yen,won,,True,22
+🤖 xai/grok-4.20-0309-non-reasoning,w8,world,What is the capital of Brazil?,Brasilia,Rio de Janeiro,Bras[ií]lia,True,23
+🤖 xai/grok-4.20-0309-non-reasoning,d1,dates,How many days are in a leap year?,366,365,,True,24
+🤖 xai/grok-4.20-0309-non-reasoning,d2,dates,How many months of the year have 31 days?,7,8,,True,25
+🤖 xai/grok-4.20-0309-non-reasoning,d3,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,True,26
+🤖 xai/grok-4.20-0309-non-reasoning,d4,dates,Was 1900 a leap year? Answer yes or no.,no,yes,(?<![a-z])no(?![a-z]),True,27
+🤖 xai/grok-4.20-0309-non-reasoning,d5,dates,"In a non-leap year, how many days are there from 1 January to 1 February?",31,30,,True,28
+🤖 xai/grok-4.20-0309-non-reasoning,d6,dates,How many hours are in one week?,168,148,,True,29
+🤖 xai/grok-4.20-0309-non-reasoning,s1,science,What is the chemical symbol for gold?,Au,Ag,(?<![A-Za-z])Au(?![a-z]),True,30
+🤖 xai/grok-4.20-0309-non-reasoning,s2,science,How many bones are in the adult human body?,206,201,,True,31
+🤖 xai/grok-4.20-0309-non-reasoning,s3,science,Approximately how many kilometres per second does light travel in a vacuum?,300000,150000,"300[ ,.]?000",True,32
+🤖 xai/grok-4.20-0309-non-reasoning,s4,science,Which planet is closest to the Sun?,Mercury,Venus,,True,33
+🤖 xai/grok-4.20-0309-non-reasoning,s5,science,What substance has the chemical formula H2O?,water,hydrogen peroxide,,True,34
+🤖 xai/grok-4.20-0309-non-reasoning,s6,science,How many chromosomes are in a normal human body cell?,46,23,,True,35
+🤖 xai/grok-4.20-0309-non-reasoning,c1,logic,How many letters are in the word benchmark?,9,8,,True,36
+🤖 xai/grok-4.20-0309-non-reasoning,c2,logic,"What number comes next: 2, 4, 8, 16?",32,24,,True,37
+🤖 xai/grok-4.20-0309-non-reasoning,c3,logic,A shirt costs 20 after a 50 percent discount. What was the original price?,40,30,,False,38
+🤖 xai/grok-4.20-0309-non-reasoning,c4,logic,How many vowels are in the word evaluation?,6,5,,True,39
+🤖 xai/grok-4.20-0309-non-reasoning,h1,counting,How many times does the letter r appear in the word strawberry? Answer with a number.,3,2,,False,40
+🤖 xai/grok-4.20-0309-non-reasoning,h2,counting,How many times does the letter s appear in the word assessments? Answer with a number.,5,4,,False,41
+🤖 xai/grok-4.20-0309-non-reasoning,h3,counting,How many times does the letter e appear in the word entrepreneurship? Answer with a number.,4,5,,False,42
+🤖 xai/grok-4.20-0309-non-reasoning,h4,counting,How many times does the letter i appear in the word Mississippi? Answer with a number.,4,5,,True,43
+🤖 xai/grok-4.20-0309-non-reasoning,h5,counting,How many times does the letter t appear in the word institutional? Answer with a number.,3,4,,True,44
+🤖 xai/grok-4.20-0309-non-reasoning,h6,counting,How many vowels are in the word rhythm? Answer with a number.,0,1,,True,45
+🤖 xai/grok-4.20-0309-non-reasoning,h7,counting,How many letters are in the word unquestionably? Answer with a number.,14,13,,False,46
+🤖 xai/grok-4.20-0309-non-reasoning,h8,counting,How many times does the letter l appear in the word parallel? Answer with a number.,3,4,,False,47
+🤖 xai/grok-4.20-0309-non-reasoning,h9,hard_math,What is the 10th prime number?,29,31,,True,48
+🤖 xai/grok-4.20-0309-non-reasoning,h10,hard_math,How many prime numbers are there below 100?,25,24,,True,49
+🤖 xai/grok-4.20-0309-non-reasoning,h11,hard_math,"What is 1 divided by 7, to four decimal places?",0.1429,0.1428,,True,50
+🤖 xai/grok-4.20-0309-non-reasoning,h12,hard_math,"What is the square root of 2, to three decimal places?",1.414,1.141,,True,51
+🤖 xai/grok-4.20-0309-non-reasoning,h13,hard_math,What is 13 squared minus 7 squared?,120,110,,True,52
+🤖 xai/grok-4.20-0309-non-reasoning,h14,hard_math,What is the lowest common multiple of 12 and 18?,36,72,,True,53
+🤖 xai/grok-4.20-0309-non-reasoning,h15,dates,What day of the week was 15 August 1947?,Friday,Thursday,,False,54
+🤖 xai/grok-4.20-0309-non-reasoning,h16,dates,How many days are there from 1 March 2024 to 15 July 2024?,136,135,,False,55
+🤖 xai/grok-4.20-0309-non-reasoning,h17,science,What is the chemical symbol for tungsten?,W,Tu,(?<![A-Za-z])W(?![a-z]),True,56
+🤖 xai/grok-4.20-0309-non-reasoning,h18,science,Which element has atomic number 42?,Molybdenum,Niobium,,True,57
+🤖 xai/grok-4.20-0309-non-reasoning,x1,counting,How many times does the letter n appear in this sentence: Nine new engines running in tandem? Answer with a number.,10,9,,False,58
+🤖 xai/grok-4.20-0309-non-reasoning,x2,counting,How many letters are in the word onomatopoeia? Answer with a number.,12,11,,False,59
+🤖 xai/grok-4.20-0309-non-reasoning,x3,hard_math,What is 4871 multiplied by 362?,1763302,1763202,"1[ ,]?763[ ,]?302",True,60
+🤖 xai/grok-4.20-0309-non-reasoning,x4,hard_math,What is 2 to the power of 20?,1048576,1048567,"1[ ,]?048[ ,]?576",True,61
+🤖 xai/grok-4.20-0309-non-reasoning,x5,hard_math,What is 17 percent of 1480?,251.6,254.6,,True,62
+🤖 xai/grok-4.20-0309-non-reasoning,x6,hard_math,What is the 100th prime number?,541,547,,True,63
+🤖 xai/grok-4.20-0309-non-reasoning,x7,hard_math,"What is the sum of the first 15 square numbers, starting from 1?",1240,1245,,False,64
+🤖 xai/grok-4.20-0309-non-reasoning,x8,hard_math,What is 1234 in binary?,10011010010,10011010110,,True,65
+🤖 xai/grok-4.20-0309-non-reasoning,x9,hard_math,What is 48879 in hexadecimal?,BEEF,BEFF,,True,66
+🤖 xai/grok-4.20-0309-non-reasoning,x10,dates,What day of the week was 29 February 2024?,Thursday,Wednesday,,True,67
+🤖 xai/grok-4.20-0309-non-reasoning,x11,dates,How many days are there from 1 January 2000 to 1 January 2026?,9497,9496,,False,68
+🤖 xai/grok-4.20-0309-non-reasoning,x12,world,What is the capital of Myanmar?,Naypyidaw,Yangon,Nay ?Pyi ?Taw|Naypyidaw,True,69
+🤖 xai/grok-4.20-0309-non-reasoning,x13,world,What is the constitutional capital of Bolivia?,Sucre,La Paz,,True,70
+🤖 xai/grok-4.20-0309-non-reasoning,x14,science,Which element has the chemical symbol Sb?,Antimony,Strontium,,True,71
+🤖 xai/grok-4.20-0309-non-reasoning,x15,science,What is the atomic number of lead?,82,84,,True,72
+🤖 xai/grok-4.20-0309-non-reasoning,t1,traps,"Which number is larger, 9.11 or 9.9?",9.9,9.11,,True,73
+🤖 xai/grok-4.20-0309-non-reasoning,t2,traps,How many months of the year have 28 days? Answer with a number.,12,1,,True,74
+🤖 xai/grok-4.20-0309-non-reasoning,t3,traps,How many days will February 2100 have? Answer with a number.,28,29,,False,75
+🤖 xai/grok-4.20-0309-non-reasoning,t4,traps,A farmer has 17 sheep. All but 9 die. How many are left? Answer with a number.,9,8,,True,76
+🤖 xai/grok-4.20-0309-non-reasoning,t5,traps,You are second in a race and you overtake the runner in first place. What position are you in now?,first,second,,True,77
+🤖 xai/grok-4.20-0309-non-reasoning,t6,traps,A doctor gives you 3 pills and tells you to take one every half hour. How many minutes pass before the last one is taken?,60,90,,False,78
+🤖 xai/grok-4.20-0309-non-reasoning,p1,wordplay,What is the word reasoning spelled backwards?,gninosaer,gninosear,,False,79
+🤖 xai/grok-4.20-0309-non-reasoning,p2,wordplay,What is the word banana spelled backwards?,ananab,ananba,,True,80
+🤖 xai/grok-4.20-0309-non-reasoning,p3,wordplay,What is the fifth letter of the word benchmark?,h,m,(?<![a-z])h(?![a-z]),False,81
+🤖 xai/grok-4.20-0309-non-reasoning,p4,wordplay,"Ignoring spaces, punctuation and capitals, is this sentence a palindrome: Was it a car or a cat I saw? Answer yes or no.",yes,no,,True,82
+🤖 xai/grok-4.20-0309-non-reasoning,p5,wordplay,How many times does the word the appear in this sentence: the cat sat on the mat with the hat? Answer with a number.,3,2,,False,83
+🤖 xai/grok-4.20-0309-non-reasoning,p6,wordplay,How many times does the letter b appear in the word bubble? Answer with a number.,3,2,,False,84
+🤖 xai/grok-4.20-0309-non-reasoning,r1,reasoning,What is the sum of the digits of 9875?,29,27,,True,85
+🤖 xai/grok-4.20-0309-non-reasoning,r2,reasoning,"If five machines take five minutes to make five widgets, how many minutes do 100 machines take to make 100 widgets?",5,100,,True,86
+🤖 xai/grok-4.20-0309-non-reasoning,r3,reasoning,A bat and a ball cost 1.10 in total. The bat costs 1.00 more than the ball. How much does the ball cost?,0.05,0.10,,True,87
+🤖 xai/grok-4.20-0309-non-reasoning,n1,counting,How many times does the letter a appear in abracadabra? Answer with a number.,5,4,,True,88
+🤖 xai/grok-4.20-0309-non-reasoning,n2,counting,How many letters are in the word floccinaucinihilipilification? Answer with a number.,29,28,,True,89
+🤖 xai/grok-4.20-0309-non-reasoning,n3,counting,How many times does the letter e appear in entrepreneurship? Answer with a number.,4,3,,True,90
+🤖 xai/grok-4.20-0309-non-reasoning,n4,counting,How many vowels are in the word onomatopoeia? Answer with a number.,8,7,,False,91
+🤖 xai/grok-4.20-0309-non-reasoning,n5,counting,How many times does the pair of letters ss appear in Mississippi? Answer with a number.,2,3,,False,92
+🤖 xai/grok-4.20-0309-non-reasoning,n6,counting,How many letters are in the word strengths? Answer with a number.,9,8,,True,93
+🤖 xai/grok-4.20-0309-non-reasoning,n7,hard_math,What is 17 times 23 minus 19 times 13?,144,154,,False,94
+🤖 xai/grok-4.20-0309-non-reasoning,n8,hard_math,What is the remainder when 2 to the power of 20 is divided by 100?,76,24,,False,95
+🤖 xai/grok-4.20-0309-non-reasoning,n9,hard_math,"A price rises by 20 percent and then falls by 20 percent, ending at 96. What was the original price?",100,96,,True,96
+🤖 xai/grok-4.20-0309-non-reasoning,n10,hard_math,What is the sum of all whole numbers from 1 to 100 that are divisible by 7?,735,742,,False,97
+🤖 xai/grok-4.20-0309-non-reasoning,n11,hard_math,How many diagonals does a regular decagon have?,35,45,,True,98
+🤖 xai/grok-4.20-0309-non-reasoning,n12,hard_math,What is the last digit of 7 to the power of 100?,1,7,,False,99
+🤖 xai/grok-4.20-0309-non-reasoning,n13,hard_math,The sum of two numbers is 30 and their difference is 4. What is the larger number?,17,13,,False,100
+🤖 xai/grok-4.20-0309-non-reasoning,n14,hard_math,What is 15 percent of 240 plus 25 percent of 160?,76,80,,False,101
+🤖 xai/grok-4.20-0309-non-reasoning,n15,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,True,102
+🤖 xai/grok-4.20-0309-non-reasoning,n16,dates,How many Fridays were there in February 2024? Answer with a number.,4,5,,False,103
+🤖 xai/grok-4.20-0309-non-reasoning,n17,dates,How many days are there from 1 March 2024 up to but not including 1 June 2024?,92,91,,False,104
+🤖 xai/grok-4.20-0309-non-reasoning,n18,logic,All bloops are razzies. All razzies are lazzies. Are all bloops definitely lazzies? Answer yes or no.,yes,no,,True,105
+🤖 xai/grok-4.20-0309-non-reasoning,n19,world,How many countries share a land border with Brazil? Answer with a number.,10,9,,False,106
+🤖 xai/grok-4.20-0309-non-reasoning,n20,world,How many time zones does Russia officially span? Answer with a number.,11,9,,False,107
+🤖 xai/grok-4.20-0309-non-reasoning,n21,world,How many member states does the United Nations have? Answer with a number.,193,195,,True,108
+🤖 xai/grok-4.20-0309-non-reasoning,n22,science,How many chromosomes are in a human gamete? Answer with a number.,23,46,,True,109
+🤖 xai/grok-4.20-0309-non-reasoning,n23,wordplay,What English word do you get when you reverse the word stressed?,desserts,dressers,,True,110
+🤖 xai/grok-4.20-0309-non-reasoning,n24,wordplay,"Ignoring spaces and capitals, is the phrase A man a plan a canal Panama a palindrome? Answer yes or no.",yes,no,,True,111
+🤖 zai/glm-5,a1,arithmetic,What is 17 times 23?,391,371,,True,0
+🤖 zai/glm-5,a2,arithmetic,What is 144 divided by 12?,12,14,,True,1
+🤖 zai/glm-5,a3,arithmetic,What is 2 to the power of 10?,1024,1048,,True,2
+🤖 zai/glm-5,a4,arithmetic,What is 15 percent of 240?,36,32,,True,3
+🤖 zai/glm-5,a5,arithmetic,What is 7 factorial?,5040,4320,,True,4
+🤖 zai/glm-5,a6,arithmetic,What is the sum of all whole numbers from 1 to 20?,210,200,,True,5
+🤖 zai/glm-5,a7,arithmetic,"What is 3 divided by 8, as a decimal?",0.375,0.325,,True,6
+🤖 zai/glm-5,a8,arithmetic,What is the square root of 169?,13,17,,True,7
+🤖 zai/glm-5,u1,units,How many metres are in one kilometre?,1000,100,,True,8
+🤖 zai/glm-5,u2,units,How many hours are 90 minutes?,1.5,1.3,,True,9
+🤖 zai/glm-5,u3,units,"How many miles are 5 kilometres, to one decimal place?",3.1,2.5,,True,10
+🤖 zai/glm-5,u4,units,What is 0 degrees Celsius in Fahrenheit?,32,50,,True,11
+🤖 zai/glm-5,u5,units,"How many pounds is 1 kilogram, to one decimal place?",2.2,1.6,,True,12
+🤖 zai/glm-5,u6,units,How many millilitres are in 2 litres?,2000,200,,True,13
+🤖 zai/glm-5,u7,units,"What is 100 degrees Celsius in Kelvin, to the nearest whole number?",373,273,,True,14
+🤖 zai/glm-5,u8,units,How many seconds are in one hour?,3600,360,,True,15
+🤖 zai/glm-5,w1,world,What is the capital of Australia?,Canberra,Sydney,,True,16
+🤖 zai/glm-5,w2,world,What is the capital of Cameroon?,Yaounde,Douala,Yaound,True,17
+🤖 zai/glm-5,w3,world,What is the capital of Turkey?,Ankara,Istanbul,,True,18
+🤖 zai/glm-5,w4,world,What is the capital of Canada?,Ottawa,Toronto,,True,19
+🤖 zai/glm-5,w5,world,Which is the largest ocean on Earth?,Pacific,Atlantic,,True,20
+🤖 zai/glm-5,w6,world,What is the longest river in Africa?,Nile,Congo,,True,21
+🤖 zai/glm-5,w7,world,What is the currency of Japan?,yen,won,,True,22
+🤖 zai/glm-5,w8,world,What is the capital of Brazil?,Brasilia,Rio de Janeiro,Bras[ií]lia,True,23
+🤖 zai/glm-5,d1,dates,How many days are in a leap year?,366,365,,True,24
+🤖 zai/glm-5,d2,dates,How many months of the year have 31 days?,7,8,,True,25
+🤖 zai/glm-5,d3,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,True,26
+🤖 zai/glm-5,d4,dates,Was 1900 a leap year? Answer yes or no.,no,yes,(?<![a-z])no(?![a-z]),True,27
+🤖 zai/glm-5,d5,dates,"In a non-leap year, how many days are there from 1 January to 1 February?",31,30,,True,28
+🤖 zai/glm-5,d6,dates,How many hours are in one week?,168,148,,True,29
+🤖 zai/glm-5,s1,science,What is the chemical symbol for gold?,Au,Ag,(?<![A-Za-z])Au(?![a-z]),True,30
+🤖 zai/glm-5,s2,science,How many bones are in the adult human body?,206,201,,True,31
+🤖 zai/glm-5,s3,science,Approximately how many kilometres per second does light travel in a vacuum?,300000,150000,"300[ ,.]?000",True,32
+🤖 zai/glm-5,s4,science,Which planet is closest to the Sun?,Mercury,Venus,,True,33
+🤖 zai/glm-5,s5,science,What substance has the chemical formula H2O?,water,hydrogen peroxide,,True,34
+🤖 zai/glm-5,s6,science,How many chromosomes are in a normal human body cell?,46,23,,True,35
+🤖 zai/glm-5,c1,logic,How many letters are in the word benchmark?,9,8,,True,36
+🤖 zai/glm-5,c2,logic,"What number comes next: 2, 4, 8, 16?",32,24,,True,37
+🤖 zai/glm-5,c3,logic,A shirt costs 20 after a 50 percent discount. What was the original price?,40,30,,True,38
+🤖 zai/glm-5,c4,logic,How many vowels are in the word evaluation?,6,5,,True,39
+🤖 zai/glm-5,h1,counting,How many times does the letter r appear in the word strawberry? Answer with a number.,3,2,,True,40
+🤖 zai/glm-5,h2,counting,How many times does the letter s appear in the word assessments? Answer with a number.,5,4,,True,41
+🤖 zai/glm-5,h3,counting,How many times does the letter e appear in the word entrepreneurship? Answer with a number.,4,5,,True,42
+🤖 zai/glm-5,h4,counting,How many times does the letter i appear in the word Mississippi? Answer with a number.,4,5,,True,43
+🤖 zai/glm-5,h5,counting,How many times does the letter t appear in the word institutional? Answer with a number.,3,4,,True,44
+🤖 zai/glm-5,h6,counting,How many vowels are in the word rhythm? Answer with a number.,0,1,,False,45
+🤖 zai/glm-5,h7,counting,How many letters are in the word unquestionably? Answer with a number.,14,13,,True,46
+🤖 zai/glm-5,h8,counting,How many times does the letter l appear in the word parallel? Answer with a number.,3,4,,True,47
+🤖 zai/glm-5,h9,hard_math,What is the 10th prime number?,29,31,,True,48
+🤖 zai/glm-5,h10,hard_math,How many prime numbers are there below 100?,25,24,,True,49
+🤖 zai/glm-5,h11,hard_math,"What is 1 divided by 7, to four decimal places?",0.1429,0.1428,,False,50
+🤖 zai/glm-5,h12,hard_math,"What is the square root of 2, to three decimal places?",1.414,1.141,,False,51
+🤖 zai/glm-5,h13,hard_math,What is 13 squared minus 7 squared?,120,110,,False,52
+🤖 zai/glm-5,h14,hard_math,What is the lowest common multiple of 12 and 18?,36,72,,False,53
+🤖 zai/glm-5,h15,dates,What day of the week was 15 August 1947?,Friday,Thursday,,False,54
+🤖 zai/glm-5,h16,dates,How many days are there from 1 March 2024 to 15 July 2024?,136,135,,False,55
+🤖 zai/glm-5,h17,science,What is the chemical symbol for tungsten?,W,Tu,(?<![A-Za-z])W(?![a-z]),False,56
+🤖 zai/glm-5,h18,science,Which element has atomic number 42?,Molybdenum,Niobium,,False,57
+🤖 zai/glm-5,x1,counting,How many times does the letter n appear in this sentence: Nine new engines running in tandem? Answer with a number.,10,9,,False,58
+🤖 zai/glm-5,x2,counting,How many letters are in the word onomatopoeia? Answer with a number.,12,11,,False,59
+🤖 zai/glm-5,x3,hard_math,What is 4871 multiplied by 362?,1763302,1763202,"1[ ,]?763[ ,]?302",False,60
+🤖 zai/glm-5,x4,hard_math,What is 2 to the power of 20?,1048576,1048567,"1[ ,]?048[ ,]?576",False,61
+🤖 zai/glm-5,x5,hard_math,What is 17 percent of 1480?,251.6,254.6,,False,62
+🤖 zai/glm-5,x6,hard_math,What is the 100th prime number?,541,547,,False,63
+🤖 zai/glm-5,x7,hard_math,"What is the sum of the first 15 square numbers, starting from 1?",1240,1245,,False,64
+🤖 zai/glm-5,x8,hard_math,What is 1234 in binary?,10011010010,10011010110,,False,65
+🤖 zai/glm-5,x9,hard_math,What is 48879 in hexadecimal?,BEEF,BEFF,,False,66
+🤖 zai/glm-5,x10,dates,What day of the week was 29 February 2024?,Thursday,Wednesday,,False,67
+🤖 zai/glm-5,x11,dates,How many days are there from 1 January 2000 to 1 January 2026?,9497,9496,,False,68
+🤖 zai/glm-5,x12,world,What is the capital of Myanmar?,Naypyidaw,Yangon,Nay ?Pyi ?Taw|Naypyidaw,False,69
+🤖 zai/glm-5,x13,world,What is the constitutional capital of Bolivia?,Sucre,La Paz,,False,70
+🤖 zai/glm-5,x14,science,Which element has the chemical symbol Sb?,Antimony,Strontium,,False,71
+🤖 zai/glm-5,x15,science,What is the atomic number of lead?,82,84,,False,72
+🤖 zai/glm-5,t1,traps,"Which number is larger, 9.11 or 9.9?",9.9,9.11,,False,73
+🤖 zai/glm-5,t2,traps,How many months of the year have 28 days? Answer with a number.,12,1,,False,74
+🤖 zai/glm-5,t3,traps,How many days will February 2100 have? Answer with a number.,28,29,,False,75
+🤖 zai/glm-5,t4,traps,A farmer has 17 sheep. All but 9 die. How many are left? Answer with a number.,9,8,,False,76
+🤖 zai/glm-5,t5,traps,You are second in a race and you overtake the runner in first place. What position are you in now?,first,second,,False,77
+🤖 zai/glm-5,t6,traps,A doctor gives you 3 pills and tells you to take one every half hour. How many minutes pass before the last one is taken?,60,90,,False,78
+🤖 zai/glm-5,p1,wordplay,What is the word reasoning spelled backwards?,gninosaer,gninosear,,False,79
+🤖 zai/glm-5,p2,wordplay,What is the word banana spelled backwards?,ananab,ananba,,False,80
+🤖 zai/glm-5,p3,wordplay,What is the fifth letter of the word benchmark?,h,m,(?<![a-z])h(?![a-z]),False,81
+🤖 zai/glm-5,p4,wordplay,"Ignoring spaces, punctuation and capitals, is this sentence a palindrome: Was it a car or a cat I saw? Answer yes or no.",yes,no,,False,82
+🤖 zai/glm-5,p5,wordplay,How many times does the word the appear in this sentence: the cat sat on the mat with the hat? Answer with a number.,3,2,,False,83
+🤖 zai/glm-5,p6,wordplay,How many times does the letter b appear in the word bubble? Answer with a number.,3,2,,False,84
+🤖 zai/glm-5,r1,reasoning,What is the sum of the digits of 9875?,29,27,,False,85
+🤖 zai/glm-5,r2,reasoning,"If five machines take five minutes to make five widgets, how many minutes do 100 machines take to make 100 widgets?",5,100,,False,86
+🤖 zai/glm-5,r3,reasoning,A bat and a ball cost 1.10 in total. The bat costs 1.00 more than the ball. How much does the ball cost?,0.05,0.10,,False,87
+🤖 zai/glm-5,n1,counting,How many times does the letter a appear in abracadabra? Answer with a number.,5,4,,False,88
+🤖 zai/glm-5,n2,counting,How many letters are in the word floccinaucinihilipilification? Answer with a number.,29,28,,False,89
+🤖 zai/glm-5,n3,counting,How many times does the letter e appear in entrepreneurship? Answer with a number.,4,3,,False,90
+🤖 zai/glm-5,n4,counting,How many vowels are in the word onomatopoeia? Answer with a number.,8,7,,False,91
+🤖 zai/glm-5,n5,counting,How many times does the pair of letters ss appear in Mississippi? Answer with a number.,2,3,,False,92
+🤖 zai/glm-5,n6,counting,How many letters are in the word strengths? Answer with a number.,9,8,,False,93
+🤖 zai/glm-5,n7,hard_math,What is 17 times 23 minus 19 times 13?,144,154,,False,94
+🤖 zai/glm-5,n8,hard_math,What is the remainder when 2 to the power of 20 is divided by 100?,76,24,,False,95
+🤖 zai/glm-5,n9,hard_math,"A price rises by 20 percent and then falls by 20 percent, ending at 96. What was the original price?",100,96,,False,96
+🤖 zai/glm-5,n10,hard_math,What is the sum of all whole numbers from 1 to 100 that are divisible by 7?,735,742,,False,97
+🤖 zai/glm-5,n11,hard_math,How many diagonals does a regular decagon have?,35,45,,False,98
+🤖 zai/glm-5,n12,hard_math,What is the last digit of 7 to the power of 100?,1,7,,False,99
+🤖 zai/glm-5,n13,hard_math,The sum of two numbers is 30 and their difference is 4. What is the larger number?,17,13,,False,100
+🤖 zai/glm-5,n14,hard_math,What is 15 percent of 240 plus 25 percent of 160?,76,80,,False,101
+🤖 zai/glm-5,n15,dates,What day of the week was 1 January 2000?,Saturday,Sunday,,False,102
+🤖 zai/glm-5,n16,dates,How many Fridays were there in February 2024? Answer with a number.,4,5,,False,103
+🤖 zai/glm-5,n17,dates,How many days are there from 1 March 2024 up to but not including 1 June 2024?,92,91,,False,104
+🤖 zai/glm-5,n18,logic,All bloops are razzies. All razzies are lazzies. Are all bloops definitely lazzies? Answer yes or no.,yes,no,,False,105
+🤖 zai/glm-5,n19,world,How many countries share a land border with Brazil? Answer with a number.,10,9,,False,106
+🤖 zai/glm-5,n20,world,How many time zones does Russia officially span? Answer with a number.,11,9,,False,107
+🤖 zai/glm-5,n21,world,How many member states does the United Nations have? Answer with a number.,193,195,,False,108
+🤖 zai/glm-5,n22,science,How many chromosomes are in a human gamete? Answer with a number.,23,46,,False,109
+🤖 zai/glm-5,n23,wordplay,What English word do you get when you reverse the word stressed?,desserts,dressers,,False,110
+🤖 zai/glm-5,n24,wordplay,"Ignoring spaces and capitals, is the phrase A man a plan a canal Panama a palindrome? Answer yes or no.",yes,no,,False,111
